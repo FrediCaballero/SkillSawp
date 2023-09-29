@@ -1,2 +1,2 @@
 # SkillSawp
-*Repositorio Original: *https://github.com/HuamanAngel/TalentWork
+Repositorio Original: https://github.com/HuamanAngel/TalentWork
