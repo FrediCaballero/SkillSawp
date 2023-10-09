@@ -27,9 +27,19 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 4. *Perfil de Servicio* (Miguel)
 5. *Contratar servicio de trabajadores* (Jean)
 
-![Modelo de Diagrama de Caso de uso](https://upload.wikimedia.org/wikipedia/commons/8/80/UML_diagrama_caso_de_uso.svg)
+![Modelo de Diagrama de Caso de uso](https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-1.png)
 
 ### 2. Especificación de caso de uso
+
+6. *Registro de Usuarios.(Juan)*
+7. *Login de Usuarios.(Fredi)*
+8. *Registro de Servicios.(Brayan)*
+9. *Perfil de Servicio.(Miguel)*
+10. *Contratar servicio de trabajadores.(Jean)*
+
+![Modelo de Especificación de Caso de uso](https://proyectopnfi.webcindario.com/img/especificacionaltonivelbienes.png)
+
+
 ### 3. Diagrama de clases
 ### 4. Modelo de la base de datos (Modelo relacional)
 ### 5. Interfaces y CRUD funcional de la parte de cliente
