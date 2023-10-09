@@ -1,8 +1,8 @@
 # SkillSawp
 Repositorio Original: https://github.com/HuamanAngel/TalentWork
 
-#Primera entrega:
-## 1. Diagrama de Casos de uso
+## Primera entrega:
+### 1. Diagrama de Casos de uso
 | ID    | Caso de Uso del Sistema                 | Iteración | Frontend | Backend  |
 |-------|-----------------------------------------|-----------|----------|----------|
 | CUS01 | Registro de usuarios                   | 1         | juan     |          |
@@ -20,7 +20,7 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 | CUS05 | Calificación de servicio               | 3         | juan     |          |
 | CUS06 | Tablón de demanda de servicios          | 3         | jean     |          |
 
-## 2. Especificación de caso de uso
-## 3. Diagrama de clases
-## 4. Modelo de la base de datos (Modelo relacional)
-## 5. Interfaces y CRUD funcional de la parte de cliente
+### 2. Especificación de caso de uso
+### 3. Diagrama de clases
+### 4. Modelo de la base de datos (Modelo relacional)
+### 5. Interfaces y CRUD funcional de la parte de cliente
