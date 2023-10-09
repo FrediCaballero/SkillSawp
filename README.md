@@ -27,7 +27,7 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 4. *Perfil de Servicio* (Miguel)
 5. *Contratar servicio de trabajadores* (Jean)
 
-![Modelo de Diagrama de Caso de uso](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FDiagrama_de_casos_de_uso&psig=AOvVaw15YIOoTImNaJQHbP03WtlB&ust=1696926965094000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCnw9nH6IEDFQAAAAAdAAAAABAE)
+![Modelo de Diagrama de Caso de uso](https://upload.wikimedia.org/wikipedia/commons/8/80/UML_diagrama_caso_de_uso.svg)
 
 ### 2. Especificación de caso de uso
 ### 3. Diagrama de clases
