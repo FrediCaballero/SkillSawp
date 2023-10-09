@@ -27,7 +27,7 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 4. *Perfil de Servicio* (Miguel)
 5. *Contratar servicio de trabajadores* (Jean)
 
-<img src="https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png" alt="Modelo de Diagrama de Caso de uso" width="400" height="700" />
+<img src="https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png" alt="Modelo de Diagrama de Caso de uso" width="400" height="600" />
 
 
 ### 2. Especificación de caso de uso
@@ -51,4 +51,9 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 <img src="https://www.researchgate.net/profile/Carlos-Jaimez-Gonzalez/publication/331559090/figure/fig2/AS:733558352130048@1551905348694/Diagrama-de-clases-y-patron-de-diseno-MVC.png" alt="Modelo de Diagrama de clases" width="700" height="600" />
 
 ### 4. Modelo de la base de datos (Modelo relacional)
+
+*Es de todo el sistema*
+<img src="https://finanzastics2.files.wordpress.com/2016/07/aaaa.jpg" alt="Ejemplo de Modelo de la base de datos (Modelo relacional)" width="400" height="600" />
+
+
 ### 5. Interfaces y CRUD funcional de la parte de cliente
