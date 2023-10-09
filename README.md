@@ -28,6 +28,8 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 5. *Contratar servicio de trabajadores* (Jean)
 
 ![Modelo de Diagrama de Caso de uso](https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png)
+<img src="https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png" alt="Modelo de Diagrama de Caso de uso" width="200" height="150" />
+
 
 ### 2. Especificación de caso de uso
 
