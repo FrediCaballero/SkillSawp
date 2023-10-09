@@ -27,8 +27,7 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 4. *Perfil de Servicio* (Miguel)
 5. *Contratar servicio de trabajadores* (Jean)
 
-![Modelo de Diagrama de Caso de uso](https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png)
-<img src="https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png" alt="Modelo de Diagrama de Caso de uso" width="200" height="150" />
+<img src="https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png" alt="Modelo de Diagrama de Caso de uso" width="400" height="700" />
 
 
 ### 2. Especificación de caso de uso
@@ -39,9 +38,17 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 9. *Perfil de Servicio.(Miguel)*
 10. *Contratar servicio de trabajadores.(Jean)*
 
-![Modelo de Especificación de Caso de uso](https://proyectopnfi.webcindario.com/img/especificacionaltonivelbienes.png)
+<img src="https://proyectopnfi.webcindario.com/img/especificacionaltonivelbienes.png" alt="Modelo de Especificación de Caso de uso" width="700" height="400" />
 
+### 3. Diagrama de clases (MVC)
 
-### 3. Diagrama de clases
+11. *Registro de Usuarios.(Juan)*
+12. *Login de Usuarios.(Fredi)*
+13. *Registro de Servicios.(Brayan)*
+14. *Perfil de Servicio.(Miguel)*
+15. *Contratar servicio de trabajadores.(Jean)*
+
+<img src="https://www.researchgate.net/profile/Carlos-Jaimez-Gonzalez/publication/331559090/figure/fig2/AS:733558352130048@1551905348694/Diagrama-de-clases-y-patron-de-diseno-MVC.png" alt="Modelo de Diagrama de clases" width="700" height="600" />
+
 ### 4. Modelo de la base de datos (Modelo relacional)
 ### 5. Interfaces y CRUD funcional de la parte de cliente
