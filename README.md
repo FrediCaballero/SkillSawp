@@ -20,11 +20,15 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 
 ## Primera entrega:
 ### 1. Diagrama de Casos de uso
-*1. Registro de Usuarios (Juan)*
-*2. Login de Usuarios (Fredi)*
-*3. Registro de Servicios (Brayan)*
-*4. Perfil de Servicio (Miguel)*
-*5. Contratar servicio de trabajadores (Jean)*
+
+1. *Registro de Usuarios* (Juan)
+2. *Login de Usuarios* (Fredi)
+3. *Registro de Servicios* (Brayan)
+4. *Perfil de Servicio* (Miguel)
+5. *Contratar servicio de trabajadores* (Jean)
+
+![Modelo de Diagrama de Caso de uso](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FDiagrama_de_casos_de_uso&psig=AOvVaw15YIOoTImNaJQHbP03WtlB&ust=1696926965094000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCnw9nH6IEDFQAAAAAdAAAAABAE)
+
 ### 2. Especificación de caso de uso
 ### 3. Diagrama de clases
 ### 4. Modelo de la base de datos (Modelo relacional)
