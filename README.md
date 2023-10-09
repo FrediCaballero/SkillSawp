@@ -27,7 +27,7 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 4. *Perfil de Servicio* (Miguel)
 5. *Contratar servicio de trabajadores* (Jean)
 
-![Modelo de Diagrama de Caso de uso](https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-1.png)
+![Modelo de Diagrama de Caso de uso](https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png)
 
 ### 2. Especificación de caso de uso
 
