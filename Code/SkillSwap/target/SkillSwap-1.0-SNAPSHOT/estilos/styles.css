@@ -37,3 +37,20 @@
 .login {
     margin-bottom: 40px; /* Ajusta la cantidad de margen según tus preferencias */
 }
+
+/* Cambia el color del texto de los enlaces a negro */
+.footer-menu ul li a {
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+    display: block; /* Hace que los enlaces ocupen todo el ancho del contenedor */
+    border-bottom: 1px dashed #000; /* Línea punteada negra en la parte inferior */
+    padding-bottom: 5px; /* Espaciado entre el texto y la línea */
+    color: #000; /* Color inicial del texto en negro */
+    transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+}
+
+/* Cambia el color del texto de los enlaces a blanco en el hover */
+.footer-menu ul li a:hover {
+    border-bottom-color: #00f; /* Cambia el color de la línea a rojo en el hover */
+    color: #00f; /* Cambia el color del texto a blanco en el hover */
+    text-decoration: underline; /* Subraya el texto en el hover */
+}
