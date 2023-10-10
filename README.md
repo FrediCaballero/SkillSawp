@@ -69,21 +69,23 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 
 # Comandos Básicos de Git
 
-## Clonar un repositorio remoto
+**Clonar un repositorio remoto**
 git clone <URL_del_repositorio>
 
-## Actualizar tu repositorio local con los cambios remotos
+**Actualizar tu repositorio local con los cambios remotos**
 git pull origin main
 
-## Ver Cambios en Local
+**Ver Cambios en Local**
 git status
 
-## Agregar cambios en Local
+**Agregar cambios en Local**
 git add .
+
+
 git commit -m "Mensaje del commit"
 
-## Enviar cambios al repositorio remoto
+**Enviar cambios al repositorio remoto**
 git push origin main
 
-**Antes de comenzar a trabajar, siempre hacer git pull. Una vez que hayas realizado cambios en tus archivos locales y estés listo para guardarlos en el repositorio, primero agrega y confirma los cambios localmente con git add y git commit. Luego, puedes hacer un git pull nuevamente antes de hacer un git push**
+*Antes de comenzar a trabajar, siempre hacer git pull. Una vez que hayas realizado cambios en tus archivos locales y estés listo para guardarlos en el repositorio, primero agrega y confirma los cambios localmente con git add y git commit. Luego, puedes hacer un git pull nuevamente antes de hacer un git push*
 
