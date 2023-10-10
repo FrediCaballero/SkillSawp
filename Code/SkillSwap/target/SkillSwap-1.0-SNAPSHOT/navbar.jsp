@@ -1,12 +1,12 @@
-<nav class="navbar navbar-expand-lg bg-dark">
+<nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid">
         <!-- Logo a la izquierda -->
-        <!--
-        <a class="navbar-brand" href="#"><img src="ruta-del-logo.png" alt="Logo"></a>
-        -->
+        
+        <a class="navbar-brand" href="index.jsp"><img src="images/logo.png" alt="Logo"></a>
+        
         
         <!-- Enlaces a la izquierda -->
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a href="index.jsp" class="nav-link active-page">Inicio</a>
             </li>
@@ -27,7 +27,7 @@
         <!-- Botones a la derecha -->
         <div class="ml-auto">
             <button type="button" class="btn btn-outline-light me-2" onclick="window.location.href = 'login.jsp';"> Login </button>
-            <button type="button" class="btn btn-warning" onclick="window.location.href = '#';">Sing up</button>
+            <button type="button" class="btn btn-link custom-btn-link" onclick="window.location.href = '#';">Sing up</button>
         </div>
     </div>
 </nav>
