@@ -3,19 +3,19 @@ Repositorio Original: https://github.com/HuamanAngel/TalentWork
 
 # Comandos Básicos de Git
 
-**Clonar un repositorio remoto: **
+**Clonar un repositorio remoto:**
 
 
 git clone <URL_del_repositorio>
 
 
-**Actualizar tu repositorio local con los cambios remotos: **
+**Actualizar tu repositorio local con los cambios remotos:**
 
 
 git pull origin main
 
 
-**Ver Cambios en Local: **
+**Ver Cambios en Local:**
 
 
 git status
@@ -30,7 +30,7 @@ git add .
 git commit -m "Mensaje del commit"
 
 
-**Enviar cambios al repositorio remoto: **
+**Enviar cambios al repositorio remoto:**
 
 
 git push origin main
