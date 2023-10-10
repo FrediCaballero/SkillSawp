@@ -18,8 +18,8 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Navegación </h2>
                     <ul>
-                        <li><a href="">Mi perfil</a></li>
-                        <li><a href="">Mi historial</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
@@ -28,8 +28,8 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Categorias</h2>
                     <ul>
-                        <li><a href="">Oficios</a></li>
-                        <li><a href="">Talentos</a></li>
+                        <li><a href="#">Oficios</a></li>
+                        <li><a href="#">Talentos</a></li>
                     </ul>
                 </div>
             </div>

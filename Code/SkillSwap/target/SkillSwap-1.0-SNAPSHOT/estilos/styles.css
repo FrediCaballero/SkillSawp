@@ -9,6 +9,11 @@
     height: auto; /* Altura automática para mantener la proporción original */
 }
 
+/* Margen a la izquierda de la Imagen de la Navbar*/
+.navbar-icon{
+    margin-left: 20px; /* Márgen izquierdo deseado */
+}
+
 /* Estilo para alinear los enlaces a la izquierda */
 .navbar-nav {
     margin-right: auto; /* Alinea los enlaces a la izquierda */
@@ -49,6 +54,11 @@
 .custom-btn-link:active {
     color: #fff; /* Cambia el color del texto a blanco cuando se hace clic */
     text-decoration: underline; /* Subraya el texto cuando se hace clic */
+}
+
+/* Margen a la derecha de los botones de la Navbar*/
+.navbar-buttons{
+    margin-right: 20px; /* Márgen derecho deseado */
 }
 
 .informacion {

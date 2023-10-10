@@ -38,7 +38,7 @@
                         </div>
                         <div class="card-footer">
                             ¿No tienes una cuenta?
-                            <a href="user-registration.html">Regístrate aquí</a>
+                            <a href="signUp.jsp">Regístrate aquí</a>
                         </div>
                     </div>
                 </div>
