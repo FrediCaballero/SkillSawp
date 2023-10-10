@@ -53,39 +53,21 @@ git push origin main
 | CUS10 | Establecer el estado del contrato      | 2         | jean     |          |
 | CUS11 | Permitir pago por medio de pasarela de pago | 2  | juan     |          |
 | CUS13 | Permitir pagos grupales                | 3         | brayan   |          |
-| CUS14 | Suscripción Premium                    | 3         | miguel   |          |
+| CUS14 | Suscripción Premium                    | 3         | claudia   |          |
 | CUS05 | Calificación de servicio               | 3         | juan     |          |
-| CUS06 | Tablón de demanda de servicios          | 3         | jean     |          |
+| CUS06 | Tablón de demanda de servicios          | 3         | claudia     |          |
 
 ## Primera entrega:
-### 1. Diagrama de Casos de uso
-
-1. *Registro de Usuarios* (Juan)
-2. *Login de Usuarios* (Fredi)
-3. *Registro de Servicios* (Brayan)
-4. *Perfil de Servicio* (Miguel)
-5. *Contratar servicio de trabajadores* (Jean)
+### 1. TODOS LOS DIAGRAMAS DE CASOS DE USO
 
 <img src="https://diagramaweb.com/wp-content/uploads/2020/09/diagrama-casos-de-uso-pasos-1.png" alt="Ejemplo de Diagrama de Caso de uso" width="250" height="300" />
 
 
-### 2. Especificación de caso de uso
-
-6. *Registro de Usuarios.(Juan)*
-7. *Login de Usuarios.(Fredi)*
-8. *Registro de Servicios.(Brayan)*
-9. *Perfil de Servicio.(Miguel)*
-10. *Contratar servicio de trabajadores.(Jean)*
+### 2. TODOS LAS ESPECIFICACIONES, CON SU PRE CONDICION, POST CONDICION, ETC .
 
 <img src="https://proyectopnfi.webcindario.com/img/especificacionaltonivelbienes.png" alt="Ejemplo de Especificación de Caso de uso" width="350" height="200" />
 
-### 3. Diagrama de clases (MVC)
-
-11. *Registro de Usuarios.(Juan)*
-12. *Login de Usuarios.(Fredi)*
-13. *Registro de Servicios.(Brayan)*
-14. *Perfil de Servicio.(Miguel)*
-15. *Contratar servicio de trabajadores.(Jean)*
+### 3. Diagrama de clases Completo (MVC)
 
 [Ejemplo de Diagrama de clases](https://www.researchgate.net/profile/Carlos-Jaimez-Gonzalez/publication/331559090/figure/fig2/AS:733558352130048@1551905348694/Diagrama-de-clases-y-patron-de-diseno-MVC.png)
 
@@ -95,13 +77,7 @@ git push origin main
 <img src="https://finanzastics2.files.wordpress.com/2016/07/aaaa.jpg" alt="Ejemplo de Modelo de la base de datos (Modelo relacional)" width="350" height="250" />
 
 
-### 5. Interfaces y CRUD funcional de la parte de cliente
-
-16. *Registro de Usuarios.(Juan)*
-17. *Login de Usuarios.(Fredi)*
-18. *Registro de Servicios.(Brayan)*
-19. *Perfil de Servicio.(Miguel)*
-20. *Contratar servicio de trabajadores.(Jean)*
+### 5. Interfaces y CRUD funcional de la parte de cliente 
 
 
 
