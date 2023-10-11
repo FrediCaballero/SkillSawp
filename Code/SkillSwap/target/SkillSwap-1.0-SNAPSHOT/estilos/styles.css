@@ -1,6 +1,14 @@
 /* Estilo para la barra de navegación con degradado de azul de izquierda a derecha */
 .navbar {
-    background: linear-gradient(to right, #003f73, #0077b6); /* Cambia los colores según tus preferencias */
+    background: linear-gradient(to right, #003f73, #0e89c9); 
+}
+
+.container-fluid{
+    margin-left: 20px; /* Márgen izquierdo deseado */
+}
+
+.navbar-nav {
+    margin-right: auto; /* Alinea los enlaces a la izquierda */
 }
 
 /* Estilo para el logotipo en la barra de navegación */
@@ -8,17 +16,6 @@
     width: 150px; /* Ancho deseado en píxeles */
     height: auto; /* Altura automática para mantener la proporción original */
 }
-
-/* Margen a la izquierda de la Imagen de la Navbar*/
-.navbar-icon{
-    margin-left: 20px; /* Márgen izquierdo deseado */
-}
-
-/* Estilo para alinear los enlaces a la izquierda */
-.navbar-nav {
-    margin-right: auto; /* Alinea los enlaces a la izquierda */
-}
-
 
 /* Estilo para los enlaces en gris */
 .navbar-nav .nav-link {
