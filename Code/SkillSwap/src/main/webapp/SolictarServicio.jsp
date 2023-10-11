@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Solictar Servicio</title>
         <%@include file="referencias.jsp" %>
+        <%@include file="scripPremium.jsp" %>
     </head>
     <body>
         <!--Menu Principal-->

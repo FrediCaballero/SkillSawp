@@ -11,18 +11,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>SkillSwap</title>
         <%@include file="referencias.jsp" %>
+        <%@include file="scripPremium.jsp" %>
         
-        <script>
-        function abrirVentanaEmergente() {
-            // Muestra la ventana emergente (elemento con el id "ventanaEmergente")
-            document.getElementById("ventanaEmergente").style.display = "block";
-        }
-
-        function cerrarVentanaEmergente() {
-            // Oculta la ventana emergente
-            document.getElementById("ventanaEmergente").style.display = "none";
-        }
-        </script>
         
     </head>
     <body>
