@@ -21,21 +21,21 @@
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-header">Iniciar Sesión</div>
-                        <div class="card-body">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Correo Electrónico</label>
-                                    <input type="email" class="form-control" id="email" name="email" required />
-                                </div>
-                                <div class="mb-3">
-                                    <label for="password" class="form-label">Contraseña</label>
-                                    <input type="password" class="form-control" id="password" name="password" required />
-                                </div>
-                                <button type="submit" class="btn btn-primary">
-                                    Iniciar Sesión
-                                </button>
-                            </form>
-                        </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Correo Electrónico</label>
+                                        <input type="email" class="form-control" id="email" name="email" required />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Contraseña</label>
+                                        <input type="password" class="form-control" id="password" name="password" required />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        Iniciar Sesión
+                                    </button>
+                                </form>
+                            </div>
                         <div class="card-footer">
                             ¿No tienes una cuenta?
                             <a href="signUp.jsp">Regístrate aquí</a>
