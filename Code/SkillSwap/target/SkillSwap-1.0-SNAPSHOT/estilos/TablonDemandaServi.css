@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11/10/2023, 12:37:00 PM
+    Author     : Claudia Magallanes Quiroz
+*/
+.fondo-especialidad{
+    padding: 20px 0px;
+    width: 100%;
+}
+.text-especialidad{
+    text-align: center;
+    margin-bottom: 10px;
+}.text-especialidad hr{
+    width: 80%;
+    margin: auto;
+}
+.galeria-especialidad{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.galeria-especialidad a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+}
+.galeria-especialidad a:hover{
+    background: blue;
+    padding: 10px 50px;
+    transition: 0.5s ease-out;
+}
+aside{
+    width:220px;
+    margin: 10px;
+    position:relative;
+    overflow: hidden;
+}
+
+.img-espe img{
+    width:220px;
+    height:150px;
+    display: block;
+}
+.cont-aside{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    
+}
+aside:hover .cont-aside{
+   transform: translateY(0%);
+   transition:0.5s ease-out;
+}
+

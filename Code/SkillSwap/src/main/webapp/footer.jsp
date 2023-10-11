@@ -39,7 +39,35 @@
                     <h2 class="footer-wid-title">Premium</h2>
                     <p>Subscribete a nuestra versión premium para acceder a mayores beneficios!</p>
                     <div class="newsletter-form">
-                        <input type="submit" onclick="window.location.href='#'" value="Subscribete">
+                        <!--<input type="submit" onclick="window.location.href='#'" value="Subscribete">-->
+                        <button onclick="abrirVentanaEmergente();">Suscribirse a Premium</button>
+                        
+                        <div id="ventanaEmergente" class="ventana-emergente">
+                                <div class="contenido">
+                                    <span class="cerrar" onclick="cerrarVentanaEmergente();">&times;</span>
+                                    <h2>Suscripción Premium</h2>
+                                    <form action="procesar_suscripcion.jsp" method="post">
+                                        <label for="nombre">Nombre:</label>
+                                        <input type="text" id="nombre" name="nombre" required>
+
+                                        <label for="correo">Correo Electrónico:</label>
+                                        <input type="email" id="correo" name="correo" required>
+                                        
+                                        <label for="numero_cuenta">Numero de Cuenta:</label>
+                                        <input type="text" id="cuenta" name="cuenta" required>
+
+                                        <label for="metodo_pago">Método de Pago:</label>
+                                        <select id="metodo_pago" name="metodo_pago">
+                                            <option value="tarjeta">Tarjeta de Crédito</option>
+                                            <option value="paypal">PayPal</option>
+                                        </select>
+                                        <br>
+                                        <input type="submit" value="Suscribirse">
+                                    </form>
+                                </div>
+                            </div>
+                        
+                        
                     </div>
                 </div>
             </div>
