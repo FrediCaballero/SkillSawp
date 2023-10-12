@@ -7,31 +7,28 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : AlexanderCaballero
 */
 
-/* Estilo para la barra de navegación con degradado de azul de izquierda a derecha */
+
 .navbar {
     background: linear-gradient(to right, #003f73, #0e89c9); 
 }
 
 .container-fluid{
-    margin-left: 20px; /* Márgen izquierdo deseado */
+    margin-left: 20px;
 }
 
 .navbar-nav {
-    margin-right: auto; /* Alinea los enlaces a la izquierda */
+    margin-right: auto; 
 }
 
-/* Estilo para el logotipo en la barra de navegación */
 .navbar-brand img {
-    width: 150px; /* Ancho deseado en píxeles */
-    height: auto; /* Altura automática para mantener la proporción original */
+    width: 150px; 
+    height: auto; 
 }
 
-/* Estilo para los enlaces en gris */
 .navbar-nav .nav-link {
     color: gray;
 }
 
-/* Estilo para los enlaces en blanco cuando están activos o en la página actual */
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover,
@@ -41,13 +38,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 
 /* Estilo personalizado para el botón "Sing up" con clase btn-link */
 .custom-btn-link {
-    background-color: transparent; /* Fondo transparente */
-    color: #fff; /* Texto blanco */
-    border: none; /* Sin borde */
-    text-decoration: none; /* Quita el subrayado predeterminado */
-    padding: 0; /* Sin relleno o margen */
-    cursor: pointer; /* Cambia el cursor a una mano para indicar que es un enlace */
-    transition: color 0.3s, text-decoration 0.3s; /* Agrega transiciones suaves */
+    background-color: transparent; 
+    color: #fff;
+    border: none; 
+    text-decoration: none; 
+    padding: 0; 
+    cursor: pointer; 
+    transition: color 0.3s, text-decoration 0.3s; 
 }
 
 /* Estilo para cambiar el color del botón en el hover */
