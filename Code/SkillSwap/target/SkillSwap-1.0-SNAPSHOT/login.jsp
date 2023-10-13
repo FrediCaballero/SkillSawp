@@ -48,8 +48,8 @@
             </div>
             <img class="image-container" src="images/Login-amico.svg" alt="login-image"/>
         </div>
+        <%@include file="footer.jsp" %>
     </body>
-    
-    <%@include file="footer.jsp" %>
+   
     
 </html>
