@@ -12,51 +12,49 @@
         <title>Registro de Datos Personales</title>
         <%@include file="referencias.jsp" %>
     </head>
-<body>
-    <%@include file="navbar.jsp" %>
-    <div class="container_Registro">
-        <h1>Registro de Datos Personales</h1>
-        <div class="form-container-Resgitro">
-            <form method="post">
-                <p>
-                    <label>Nombre</label>
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Apellido</label>
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Correo Electronico</label>
-                    <input type="email">
-                </p>
-                <p>
-                    <label>DNI</label>
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Fecha</label>
-                    <input type="date">
-                </p>
-                <p>
-                    <label>Contraseña</label>
-                    <input type="password">
-                </p>
-                <p>
-                    <label>Confirmar Contraseña</label>
-                    <input type="password">
-                </p>
-                <p class="block">
-                    <button>
-                        Enviar
-                    </button>
-                </p>
-            </form>
+    <body>
+        <%@include file="navbar.jsp" %>
+        <div class="container_Registro" >
+            <h1>Registro de Datos Personales</h1>
+            <div class="form-container-Resgitro">
+                <form method="get">
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Apellido</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Correo Electronico</label>
+                        <input type="email">
+                    </p>
+                    <p>
+                        <label>DNI</label>
+                        <input type="text">
+                    </p>
+                    <p>
+                        <label>Fecha</label>
+                        <input type="date">
+                    </p>
+                    <p>
+                        <label>Contraseña</label>
+                        <input type="password">
+                    </p>
+                    <p>
+                        <label>Confirmar Contraseña</label>
+                        <input type="password">
+                    </p>
+                    <p class="block" >
+                        <a href="PerfilServicio.jsp" class="btn-registro">Enviar</a>
+                    </p>
+                </form>
+            </div>
+            <div class="login-link">
+                ¿Ya tienes una cuenta? <a onclick="window.location.href = 'login.jsp';">Iniciar Sesión</a>
+            </div>
         </div>
-        <div class="login-link">
-            ¿Ya tienes una cuenta? <a onclick="window.location.href = 'login.jsp';">Iniciar Sesión</a>
-        </div>
-    </div>
-    <%@include file="footer.jsp" %>
-</body>
+        <%@include file="footer.jsp" %>
+    </body>
 </html>
