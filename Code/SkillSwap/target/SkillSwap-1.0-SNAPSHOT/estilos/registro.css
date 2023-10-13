@@ -1,4 +1,4 @@
-.container {
+.container_Registro {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -11,25 +11,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.container form label {
+.container_Registro form label {
     display: block;
 }
-.container form p {
+.container_Registro form p {
     margin: 0;
     padding: 1em;
 }
-.container form .block {
+.container_Registro form .block {
     grid-column: 1 / 3;
 }
-.container form button,
-.container form input,
-.container form textarea {
+.container_Registro form button,
+.container_Registro form input,
+.container_Registro form textarea {
     width: 100%;
     padding: .7em;
     outline: 0;
     color: #000000;
 }
-.container form button {
+.container_Registro form button {
     background-color: #007BFF;
     color: #fff;
     padding: 10px 20px;
