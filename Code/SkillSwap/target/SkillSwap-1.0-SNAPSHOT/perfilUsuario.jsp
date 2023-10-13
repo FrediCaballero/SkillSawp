@@ -6,112 +6,11 @@
         <title>Tabla de Servicios</title>
         <%@include file="referencias.jsp" %>
         <%@include file="scripPremium.jsp" %>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <style>
-
-}
-.emp-profile{
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    border-radius: 0.5rem;
-    background: rgb(30, 83, 197);
-}
-.profile-img{
-    text-align: center;
-}
-.profile-img img{
-    width: 70%;
-    height: 100%;
-}
-.profile-img .file {
-    position: relative;
-    overflow: hidden;
-    margin-top: -20%;
-    width: 70%;
-    border: none;
-    border-radius: 0;
-    font-size: 15px;
-    background: #212529b8;
-}
-.profile-img .file input {
-    position: absolute;
-    opacity: 0;
-    right: 0;
-    top: 0;
-}
-.profile-head h5{
-    color: #333;
-}
-.profile-head h6{
-    color: #0062cc;
-}
-.profile-edit-btn{
-    border: none;
-    border-radius: 1.5rem;
-    width: 70%;
-    padding: 2%;
-    font-weight: 600;
-    color: #6c757d;
-    cursor: pointer;
-}
-.proile-rating{
-    font-size: 12px;
-    color: #818182;
-    margin-top: 5%;
-}
-.proile-rating span{
-    color: #495057;
-    font-size: 15px;
-    font-weight: 600;
-}
-.profile-head .nav-tabs{
-    margin-bottom:5%;
-}
-.profile-head .nav-tabs .nav-link{
-    font-weight:600;
-    border: none;
-}
-.profile-head .nav-tabs .nav-link.active{
-    border: none;
-    border-bottom:2px solid #0062cc;
-}
-.profile-work{
-    padding: 14%;
-    margin-top: -15%;
-}
-.profile-work p{
-    font-size: 12px;
-    color: #818182;
-    font-weight: 600;
-    margin-top: 10%;
-}
-.profile-work a{
-    text-decoration: none;
-    color: #495057;
-    font-weight: 600;
-    font-size: 14px;
-}
-.profile-work ul{
-    list-style: none;
-}
-.profile-tab label{
-    font-weight: 600;
-}
-.profile-tab p{
-    font-weight: 600;
-    color: #0062cc;
-}
-      
-    </style>
-    
-   
     </head>
 
 <body>
         <!--Menu Principal-->
-    <%@include file="navbar.jsp" %>
+        <%@include file="navbarProfile.jsp" %>
     
     <div class="container emp-profile" >
            
@@ -196,7 +95,7 @@
 
                                             <div class="form-group col-md-6">
                                             <label for="inputEmail4">Nombre</label>
-                                            <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="inputNombre" placeholder="Escriba su Nombre*" value="{{ old('name',$user->name)}}" />
+                                            <input type="text" name="name"  id="inputNombre" placeholder="Escriba su Nombre*" value="{{ old('name',$user->name)}}" />
                                             @error('name')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
@@ -206,7 +105,7 @@
 
                                             <div class="form-group col-md-6">
                                             <label for="inputPassword4">Apellidos</label>
-                                            <input type="text" name="lastname" class="form-control @error('lastname') is-invalid @enderror" id="inputApellidos" placeholder="Escriba sus Apellidos*" value="{{ old('lastname',$user->lastname)}}" />
+                                            <input type="text" name="lastname"  id="inputApellidos" placeholder="Escriba sus Apellidos*" value="{{ old('lastname',$user->lastname)}}" />
                                             @error('lastname')
                                             <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -220,7 +119,7 @@
 
                                             <div class="form-group col-md-6">
                                             <label for="inputEmail4">Correo</label>
-                                            <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="inputCorreo" placeholder="Escriba su Correo*" value="{{ old('email',$user->email)}}"/>
+                                            <input type="email" name="email"  id="inputCorreo" placeholder="Escriba su Correo*" value="{{ old('email',$user->email)}}"/>
                                             @if($errors->has('email'))
                                                 <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $errors->first('email') }}</strong>
@@ -230,7 +129,7 @@
 
                                             <div class="form-group col-md-6">
                                             <label for="inputPassword4">Contraseña</label>
-                                            <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="inputPassword" placeholder="Escriba su contraseña*" value="{{ old('password') }}"/>
+                                            <input type="password" name="password"  id="inputPassword" placeholder="Escriba su contraseña*" value="{{ old('password') }}"/>
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                             <strong>{{ $message }}</strong>
@@ -247,7 +146,7 @@
 
                                             <div class="form-group col-md-6">
                                                 <label for="inputNaci">Fecha de Nacimiento</label>
-                                                <input class="form-control @error('birthdate') is-invalid @enderror" name="birthdate" type="text" placeholder="Fecha de Nacimiento" onclick="ocultarError();" onfocus="(this.type='date')" onblur="(this.type='text')" value="{{ old('birthdate',$user->birthdate)}}" />
+                                                <input  name="birthdate" type="text" placeholder="Fecha de Nacimiento" onclick="ocultarError();" onfocus="(this.type='date')" onblur="(this.type='text')" value="{{ old('birthdate',$user->birthdate)}}" />
                                                 @error('birthdate')
                                                 <span class="invalid-feedback" role="alert">
                                                     <strong>{{ $message }}</strong>
