@@ -38,6 +38,8 @@
         <button type="submit" class="boton">Contratar</button>
 
       </div>
+      
+    </div>
 
     </main>
 

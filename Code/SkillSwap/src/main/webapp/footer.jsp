@@ -30,7 +30,7 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Categorias</h2>
                     <ul>
-                        <li><a href="#">Oficios</a></li>
+                        <li><a href="PerfilServicio.jsp">Oficios</a></li>
                         <li><a href="#">Talentos</a></li>
                     </ul>
                 </div>
