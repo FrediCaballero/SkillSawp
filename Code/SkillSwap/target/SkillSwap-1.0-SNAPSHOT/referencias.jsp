@@ -14,3 +14,5 @@
 <link rel="stylesheet" href="estilos/TablonDemandaServi.css"/>
 <link rel="stylesheet" href="estilos/FormularioServicio.css"/>
 <link rel="stylesheet" href="estilos/Premium.css"/>
+<link rel="stylesheet" href="estilos/registro.css"/>
+<link rel="stylesheet" href="estilos/pago.css"/>

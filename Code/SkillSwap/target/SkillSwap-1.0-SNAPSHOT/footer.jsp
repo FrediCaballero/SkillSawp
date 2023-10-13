@@ -19,7 +19,7 @@
                     <h2 class="footer-wid-title">Navegación </h2>
                     <ul>
                         <li><a href="login.jsp">Login</a></li>
-                        <li><a href="signUp.jsp">Sign Up</a></li>
+                        <li><a href="RegistrarU.jsp">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
