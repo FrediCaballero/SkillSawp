@@ -24,11 +24,11 @@
                                                
                 <form class="login-inputs-container" method="get"> <!-- method="post"> -->
                     <div class="login-inputs">
-                        <input class="input" name="email" type="text"  placeholder="Correo electrónico">
+                        <input class="input" name="email" type="email"  placeholder="Correo electrónico">
                         <input class="input" name="password" type="password"  placeholder="Contraseña">
                     </div>
                     <p>¿Has olvidado tu contraseña? <a class="login-link">Haz click aquí</a></p>
-                    <button class="btn btn-login" type="submit">Acceder</button>
+                    <a href= "PerfilServicio.jsp" class="btn btn-login" type="submit">Acceder</a>
                     
                     <p>O</p>
                     
@@ -48,8 +48,8 @@
             </div>
             <img class="image-container" src="images/Login-amico.svg" alt="login-image"/>
         </div>
+        <%@include file="footer.jsp" %>
     </body>
-    
-    <%@include file="footer.jsp" %>
+   
     
 </html>

@@ -20,6 +20,8 @@
                     <ul>
                         <li><a href="login.jsp">Login</a></li>
                         <li><a href="RegistrarU.jsp">Sign Up</a></li>
+						<li><a href="registroDeServicios.jsp">Registro de servicio</a></li>
+						<li><a href="perfilUsuario.jsp">Mi Perfil</a></li>
                     </ul>
                 </div>
             </div>
@@ -28,7 +30,7 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Categorias</h2>
                     <ul>
-                        <li><a href="#">Oficios</a></li>
+                        <li><a href="PerfilServicio.jsp">Oficios</a></li>
                         <li><a href="#">Talentos</a></li>
                     </ul>
                 </div>

@@ -15,7 +15,7 @@
     </head>
     <body>
         <!--Menu Principal-->
-        <%@include file="navbar.jsp" %>
+        <%@include file="navbarProfile.jsp" %>
         
         
         <!--ESPECIALIDAD-->
