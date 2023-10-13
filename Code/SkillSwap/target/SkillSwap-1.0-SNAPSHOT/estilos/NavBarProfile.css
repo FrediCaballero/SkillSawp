@@ -10,3 +10,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 .custom-dropdown {
     margin-right: 20px; /* Márgen derecho deseado */
 }
+
+.navbar-nav-user {
+    display: flex;
+    justify-content: flex-end; /* Alinea elementos al extremo derecho */
+}
+
+.navbar-nav-user{
+    margin-left: 40em; /* Espacio de 20em en el lado derecho de cada elemento */
+}
+.navbar-nav-user .nav-link-user {
+    color: gray;
+}

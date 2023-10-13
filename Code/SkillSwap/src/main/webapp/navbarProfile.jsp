@@ -1,12 +1,12 @@
 <nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid">
         <!-- Logo a la izquierda -->
-        <a class="navbar-brand " href="index.jsp"><img src="images/logo.png" alt="Logo"></a>
+        <a class="navbar-brand " href="PerfilServicio.jsp"><img src="images/logo.png" alt="Logo"></a>
 
         <!-- Enlaces a la izquierda -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a href="#" class="nav-link active-page">Oficio</a>
+                <a href="PerfilServicio.jsp" class="nav-link active-page">Oficio</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link active-page">Talento</a>
@@ -16,6 +16,15 @@
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link active-page">Categorias</a>
+            </li>
+        </ul>
+        
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="PerfilServicio.jsp" class="nav-link active-page">Oficio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link active-page">Talento</a>
             </li>
         </ul>
         
