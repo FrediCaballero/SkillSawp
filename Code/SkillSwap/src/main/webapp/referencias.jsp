@@ -12,3 +12,4 @@
 <link rel="stylesheet" href="estilos/TablonDemandaServi.css"/>
 <link rel="stylesheet" href="estilos/FormularioServicio.css"/>
 <link rel="stylesheet" href="estilos/Premium.css"/>
+<link rel="stylesheet" href="estilos/InfoIndex.css"/>

@@ -16,7 +16,13 @@
         
     </head>
     <body>
+        
         <%@include file="navbar.jsp" %>
+        
+        <%@include file="InfoIndex.jsp" %>
+        
+        <br>
+        
         <%@include file="footer.jsp" %>
     </body>
 </html>
