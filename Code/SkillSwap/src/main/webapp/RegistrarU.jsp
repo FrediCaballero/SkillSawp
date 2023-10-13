@@ -16,7 +16,7 @@
     <%@include file="navbar.jsp" %>
     <div class="container_Registro">
         <h1>Registro de Datos Personales</h1>
-        <div class="form-container">
+        <div class="form-container-Resgitro">
             <form method="post">
                 <p>
                     <label>Nombre</label>

@@ -1,35 +1,35 @@
 .container_Registro {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 3em auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
     margin-bottom: 20px;
 }
-.form-container form {
+.form-container-Resgitro form {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .container_Registro form label {
     display: block;
 }
-.container_Registro form p {
+.form-container-Resgitro form p {
     margin: 0;
     padding: 1em;
 }
-.container_Registro form .block {
+.form-container-Resgitro form .block {
     grid-column: 1 / 3;
 }
-.container_Registro form button,
-.container_Registro form input,
-.container_Registro form textarea {
+.form-container-Resgitro form button,
+.form-container-Resgitro form input,
+.form-container-Resgitro form textarea {
     width: 100%;
     padding: .7em;
     outline: 0;
     color: #000000;
 }
-.container_Registro form button {
+.form-container-Resgitro form button {
     background-color: #007BFF;
     color: #fff;
     padding: 10px 20px;

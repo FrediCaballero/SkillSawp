@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="estilos/NavBar.css"/>
 <link rel="stylesheet" href="estilos/Footer.css"/>
 <link rel="stylesheet" href="estilos/Login.css"/>
+<link rel="stylesheet" href="estilos/NavBarProfile.css"/>
 <link rel="stylesheet" href="estilos/TablonDemandaServi.css"/>
 <link rel="stylesheet" href="estilos/FormularioServicio.css"/>
 <link rel="stylesheet" href="estilos/Premium.css"/>

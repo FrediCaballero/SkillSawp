@@ -12,7 +12,7 @@
                 <a href="#" class="nav-link active-page">Talento</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link active-page">Retos</a>
+                <a href="servicioRetos.jsp" class="nav-link active-page">Retos</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link active-page">Categorias</a>

@@ -24,11 +24,11 @@
                                                
                 <form class="login-inputs-container" method="get"> <!-- method="post"> -->
                     <div class="login-inputs">
-                        <input class="input" name="email" type="text"  placeholder="Correo electrónico">
+                        <input class="input" name="email" type="email"  placeholder="Correo electrónico">
                         <input class="input" name="password" type="password"  placeholder="Contraseña">
                     </div>
                     <p>¿Has olvidado tu contraseña? <a class="login-link">Haz click aquí</a></p>
-                    <button class="btn btn-login" type="submit">Acceder</button>
+                    <a  href= "TablonDemandaServicios.jsp" class="btn btn-login" type="submit">Acceder</a>
                     
                     <p>O</p>
                     

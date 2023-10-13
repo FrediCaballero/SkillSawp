@@ -19,10 +19,16 @@
             </li>
         </ul>
         
-        <!-- Botones a la derecha -->
-        <div class="ml-auto navbar-buttons">
-            <button type="button" class="btn btn-outline-light me-2" onclick="window.location.href = 'login.jsp';"> Login </button>
-            <button type="button" class="btn btn-link custom-btn-link" onclick="window.location.href = 'signUp.jsp';">Sign up</button>
+        <div class="flex-shrink-0 dropdown custom-dropdown">
+            <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small shadow show" data-popper-placement="bottom-end" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 34px, 0px);">
+            <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perfil</font></font></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index.jsp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Log Out</font></font></a></li>
+          </ul>
         </div>
+
     </div>
 </nav>

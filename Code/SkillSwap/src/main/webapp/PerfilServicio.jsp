@@ -17,7 +17,7 @@
         
         
         
-        <%@include file="navbar.jsp" %>
+        <%@include file="navbarProfile.jsp" %>
         <h2 id="perfiles">Perfil de servicios</h2>
         <main>
 
