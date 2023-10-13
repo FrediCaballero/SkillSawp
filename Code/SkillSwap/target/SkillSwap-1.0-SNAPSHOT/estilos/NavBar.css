@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 oct. 2023, 11:42:47
+    Author     : AlexanderCaballero
+*/
+
+
+.navbar {
+    background: linear-gradient(to right, #003f73, #0e89c9); 
+}
+
+.container-fluid{
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    margin-right: auto; 
+}
+
+.navbar-brand img {
+    width: 150px; 
+    height: auto; 
+}
+
+.navbar-nav .nav-link {
+    color: gray;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.active-page {
+    color: white;
+}
+
+/* Estilo personalizado para el botón "Sing up" con clase btn-link */
+.custom-btn-link {
+    background-color: transparent; 
+    color: #fff;
+    border: none; 
+    text-decoration: none; 
+    padding: 0; 
+    cursor: pointer; 
+    transition: color 0.3s, text-decoration 0.3s; 
+}
+
+/* Estilo para cambiar el color del botón en el hover */
+.custom-btn-link:hover {
+    color: #fff; /* Cambia el color del texto a blanco en el hover */
+    text-decoration: underline; /* Subraya el texto en el hover */
+}
+
+/* Estilo para cambiar el color del botón cuando se hace clic */
+.custom-btn-link:active {
+    color: #fff; /* Cambia el color del texto a blanco cuando se hace clic */
+    text-decoration: underline; /* Subraya el texto cuando se hace clic */
+}
+
+/* Margen a la derecha de los botones de la Navbar*/
+.navbar-buttons{
+    margin-right: 20px; /* Márgen derecho deseado */
+}

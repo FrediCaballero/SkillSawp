@@ -17,33 +17,36 @@
         
         <%@include file="navbar.jsp" %>
         
-        <div class="container mt-5 login">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-header">Iniciar Sesión</div>
-                        <div class="card-body">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Correo Electrónico</label>
-                                    <input type="email" class="form-control" id="email" name="email" required />
-                                </div>
-                                <div class="mb-3">
-                                    <label for="password" class="form-label">Contraseña</label>
-                                    <input type="password" class="form-control" id="password" name="password" required />
-                                </div>
-                                <button type="submit" class="btn btn-primary">
-                                    Iniciar Sesión
-                                </button>
-                            </form>
+        
+        <div class="login-container">
+            <div class="login-info-container">
+                <h1 class="login-title">Iniciar Sesión</h1>
+                                               
+                <form class="login-inputs-container" method="get"> <!-- method="post"> -->
+                    <div class="login-inputs">
+                        <input class="input" name="email" type="text"  placeholder="Correo electrónico">
+                        <input class="input" name="password" type="password"  placeholder="Contraseña">
+                    </div>
+                    <p>¿Has olvidado tu contraseña? <a class="login-link">Haz click aquí</a></p>
+                    <button class="btn btn-login" type="submit">Acceder</button>
+                    
+                    <p>O</p>
+                    
+                    <div class="social-login">
+                        <div class="social-login-element">
+                            <img src="images/google.svg" alt="google-image"/>
+                            <span>Google</span>
                         </div>
-                        <div class="card-footer">
-                            ¿No tienes una cuenta?
-                            <a href="signUp.jsp">Regístrate aquí</a>
+                        <div class="social-login-element">
+                            <img src="images/facebook.svg" alt="fb-image"/>
+                            <span>Facebook</span>
                         </div>
                     </div>
-                </div>
+                    
+                    <p>¿No tienes una cuenta? <a href="signUp.jsp" class="login-link" >Registrate aquí</a></p>
+                </form>
             </div>
+            <img class="image-container" src="images/Login-amico.svg" alt="login-image"/>
         </div>
     </body>
     
