@@ -6,7 +6,7 @@
         <!-- Enlaces a la izquierda -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a href="#" class="nav-link active-page">Oficio</a>
+                <a href="PerfilServicio.jsp" class="nav-link active-page">Oficio</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link active-page">Talento</a>

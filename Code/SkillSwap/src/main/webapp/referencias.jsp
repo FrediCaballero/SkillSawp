@@ -17,3 +17,4 @@
 <link rel="stylesheet" href="estilos/registro.css"/>
 <link rel="stylesheet" href="estilos/pago.css"/>
 <link rel="stylesheet" href="estilos/InfoIndex.css"/>
+<link rel="stylesheet" href="estilos/servicio.css"/>
