@@ -54,7 +54,7 @@
             </form>
         </div>
         <div class="login-link">
-            ¿Ya tienes una cuenta? <a href="iniciar_sesion.html">Iniciar Sesión</a>
+            ¿Ya tienes una cuenta? <a onclick="window.location.href = 'login.jsp';">Iniciar Sesión</a>
         </div>
     </div>
     <%@include file="footer.jsp" %>

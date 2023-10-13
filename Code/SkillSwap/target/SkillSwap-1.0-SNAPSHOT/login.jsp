@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     
-                    <p>¿No tienes una cuenta? <a href="signUp.jsp" class="login-link" >Registrate aquí</a></p>
+                    <p>¿No tienes una cuenta? <a href="RegistrarU.jsp" class="login-link" >Registrate aquí</a></p>
                 </form>
             </div>
             <img class="image-container" src="images/Login-amico.svg" alt="login-image"/>
