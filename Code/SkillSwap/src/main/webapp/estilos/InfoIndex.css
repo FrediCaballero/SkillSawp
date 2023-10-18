@@ -7,6 +7,31 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : Usuario
 */
 
+/* Estilos para el BANNER*/
+.fondo-banner{
+    background: url(../images/dolar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 80px 40px;
+}
+.banner{
+    width: 80%;
+    margin: auto;
+    color: white;
+} 
+.text-banner{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.text-banner h1{
+    font-size: 35px;
+}
+.text-banner p{
+    text-align: center;
+}
 main{
     padding: 20px 0px;
     background: rgb(238, 219, 219);
