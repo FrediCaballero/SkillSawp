@@ -442,7 +442,7 @@ CREATE TABLE `usuario` (
   `premium` tinyint(1) DEFAULT '0',
   `remember_token` varchar(255) DEFAULT '0',
   `stripe_id` varchar(255) DEFAULT NULL,
-  `status` varchar(20) DEFAULT NULL,
+  `status` varchar(20) DEFAULT '0',
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`idUser`),
