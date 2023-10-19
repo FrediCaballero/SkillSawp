@@ -42,7 +42,7 @@
                     <p>Subscribete a nuestra versión premium para acceder a mayores beneficios!</p>
                     <div class="newsletter-form">
                         <!--<input type="submit" onclick="window.location.href='#'" value="Subscribete">-->
-                        <button onclick="abrirVentanaEmergente();">Suscribirse a Premium</button>
+                        <button onclick="abrirVentanaEmergente();" class="btn btn-success" type="submit">Suscribirse a Premium</button>
                         
                         <div id="ventanaEmergente" class="ventana-emergente">
                                 <div class="contenido">
