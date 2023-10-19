@@ -22,13 +22,40 @@
             <div class="login-info-container">
                 <h1 class="login-title">Iniciar Sesión</h1>
                                                
-                <form class="login-inputs-container" method="get"> <!-- method="post"> -->
+                <form class="login-inputs-container" method="post"> 
                     <div class="login-inputs">
                         <input class="input" name="email" type="email"  placeholder="Correo electrónico">
                         <input class="input" name="password" type="password"  placeholder="Contraseña">
                     </div>
+                    
+                    <%@ page import="beans.Autenticacion" %>
+                    <%
+                    if (request.getMethod().equals("POST")) {
+                        String email = request.getParameter("email");
+                        String contrasena = request.getParameter("password");
+
+                        Autenticacion autenticacion = new Autenticacion();
+                        boolean autenticado = autenticacion.autenticarUsuario(email, contrasena);
+
+                        if (autenticado) {
+                            // Usuario autenticado, puedes redirigirlo a su página de perfil o realizar acciones de autenticación
+                            response.sendRedirect("perfilUsuario.jsp");
+                        } else {
+                            // Las credenciales no son válidas, puedes mostrar un mensaje de error
+                            out.println("Credenciales incorrectas. Inténtalo de nuevo.");
+                        }
+                    }
+                    %>
+                    
                     <p>¿Has olvidado tu contraseña? <a class="login-link">Haz click aquí</a></p>
-                    <a href= "PerfilServicio.jsp" class="btn btn-login" type="submit">Acceder</a>
+                    <input class="btn btn-login" type="submit" value="Acceder" 
+                           style="letter-spacing: 1px; 
+                           text-transform: uppercase;
+                            border-radius: 5px;
+                            background-color: var(--button-bg);
+                            margin-top: 15px;
+                            margin-bottom: 15px;"
+                    >
                     
                     <p>O</p>
                     
