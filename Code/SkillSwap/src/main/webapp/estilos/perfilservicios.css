@@ -3,58 +3,63 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : 13 oct. 2023, 06:38:58
+    Created on : 20 oct. 2023, 05:00:37
     Author     : migue
 */
-.filtro-sombra{
+.sombra-azul{
     background-color: #c2d2e9;
 }
-.filtro-derecha {
+.servicio-derecha {
     display: flex;
     align-items: center; /* Centra verticalmente el contenido. */
     
 }
 
-.filtro-imagen-derecha {
+.image-derecha {
     margin-right: 20px; /* Espacio entre la imagen y el contenido (ajusta según tus necesidades). */
 }
 
-.titulo-derecha {
+.content-derecha {
     flex: 1; /* Expande el contenido para ocupar el espacio disponible. */
 }
 
-.bordes{
+.bordes-redondeados {
     width: 400px;
     border-radius: 10%;
     height: auto;
     margin: 25px 60px 25px 60px;
 }
 
-
-
-.filtro-resultados {
+.descripcion {
     font-size: 20px;
     margin: 25px 35px 25px 35px;
-    
 }
 
-h3 {
+.datos {
+    font-size: 20px;
+    margin: 25px 35px 25px 35px;
+}
+
+h1 {
     font-size: 24px; /* Ajusta el tamaño del título según tus necesidades. */
     text-align: center;
 }
 
+p {
+    font-size: 16px; /* Ajusta el tamaño de la descripción según tus necesidades. */
+}
 
-.filtro-margen{
+.margen{
     display: flex;
     justify-content: center; /* Centrar horizontalmente el contenido. */
     
      /* Ajusta la altura según tus necesidades. */
 }
 
-.filtropelo {
+.pelo {
     background-color: #0077cc; /* Color de fondo normal del botón (celeste). */
     color: #fff; /* Color de texto en el botón. */
-    padding: 5px 20px;
+    padding: 10px 20px;
     
     cursor: pointer; /* Cambia el cursor a una mano cuando se pasa el ratón. */
     transition: background-color 0.3s; /* Agrega una transición suave de 0.3 segundos. */
@@ -65,18 +70,47 @@ h3 {
     
 }
 
-.filtropelo:hover {
+.pelo:hover {
     background-color: #005599; /* Cambia el color de fondo al pasar el ratón (otro tono de celeste). */
 }
 
+.container-izquierda {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido. */
+}
+
+.content-izquierda {
+    
+    flex: 1; /* Expande el contenido para ocupar el espacio disponible. */
+}
+
+.sombra{
+    background-color: #d0d7df;
+}
+
+.image-izquierda {
+    
+    margin-left: 20px; /* Espacio entre la imagen y el contenido (ajusta según tus necesidades). */
+}
+/* Cambio de diseño en pantallas más pequeñas */
 @media (max-width: 768px) {
-    .filtro-derecha {
+    .servicio-derecha {
         flex-direction: column; /* Cambia a una columna en pantallas más pequeñas. */
         
     }
-    .filtro-imagen-derecha{
+    .image-derecha{
         margin-right: 0; /* Elimina el margen derecho de la imagen. */
     }
 
+}
+
+/* Cambio de diseño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .container-izquierda {
+        flex-direction: column; /* Cambia a una columna en pantallas más pequeñas. */
+    }
+    .image-izquierda {
+        margin-left: 0; /* Elimina el margen izquierdo de la imagen. */
+    }
 }
 
