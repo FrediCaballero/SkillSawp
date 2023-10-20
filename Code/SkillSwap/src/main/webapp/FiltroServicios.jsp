@@ -15,7 +15,7 @@
     </head>
     <body>
         
-        <%@include file="navbarProfile.jsp" %>
+        <%@include file="navbar.jsp" %>
         
         <h2>Filtro de Categorias</h2>
     <div>

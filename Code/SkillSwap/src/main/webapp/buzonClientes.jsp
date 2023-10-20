@@ -19,7 +19,7 @@
     </head>
 
     <body>
-        <%@include file="navbarProfile.jsp" %>
+        <%@include file="navbar.jsp" %>
         <style type="text/css">
     
 

@@ -29,23 +29,26 @@
                     </div>
                     
                     <%@ page import="beans.Autenticacion" %>
-                    <%
-                    if (request.getMethod().equals("POST")) {
-                        String email = request.getParameter("email");
-                        String contrasena = request.getParameter("password");
+                        <%
+                        if (request.getMethod().equals("POST")) {
+                            String email = request.getParameter("email");
+                            String contrasena = request.getParameter("password");
 
-                        Autenticacion autenticacion = new Autenticacion();
-                        boolean autenticado = autenticacion.autenticarUsuario(email, contrasena);
+                            Autenticacion autenticacion = new Autenticacion();
+                            boolean autenticado = autenticacion.autenticarUsuario(email, contrasena);
 
-                        if (autenticado) {
-                            // Usuario autenticado, puedes redirigirlo a su página de perfil o realizar acciones de autenticación
-                            response.sendRedirect("perfilUsuario.jsp");
-                        } else {
-                            // Las credenciales no son válidas, puedes mostrar un mensaje de error
-                            out.println("Credenciales incorrectas. Inténtalo de nuevo.");
+                            if (autenticado) {
+                                // Usuario autenticado
+                                // Guardar información en la sesión para indicar que el usuario está autenticado
+                                session.setAttribute("usuarioAutenticado", true);
+                                response.sendRedirect("perfilUsuario.jsp");
+                            } else {
+                                // Las credenciales no son válidas, puedes mostrar un mensaje de error
+                                out.println("Credenciales incorrectas. Inténtalo de nuevo.");
+                            }
                         }
-                    }
-                    %>
+                        %>
+
                     
                     <p>¿Has olvidado tu contraseña? <a class="login-link">Haz click aquí</a></p>
                     <input class="btn btn-login" type="submit" value="Acceder" 

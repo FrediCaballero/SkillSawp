@@ -10,7 +10,7 @@
 
 <body>
         <!--Menu Principal-->
-        <%@include file="navbarProfile.jsp" %>
+        <%@include file="navbar.jsp" %>
     
     <div class="container emp-profile" >
            
