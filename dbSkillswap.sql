@@ -343,9 +343,7 @@ CREATE TABLE `solicitud` (
   `idUser` int NOT NULL,
   `name` varchar(255) NOT NULL,
   `description` text NOT NULL,
-  `price` decimal(10,2) NOT NULL,
   `idCategoria` int NOT NULL,
-  `imagen` varchar(255) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `update_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`idSolicitud`),
@@ -471,3 +469,7 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2023-10-19  4:28:33
+
+
+
+
