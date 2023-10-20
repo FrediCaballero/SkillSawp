@@ -46,23 +46,30 @@
 
     <br>
 
-    <div class="tabla-resultados">
-      
+    <div class="filtro-sombra">
+    <div class="filtro-derecha">
+        <div class="filtro-imagen-derecha"> 
         <img src="images/resultado.jpg" alt="Imagen de mujer trabajadora" class="bordes"> 
+        </div>
         
-        <div class="titulo-derecha">Resultados
-          
-        <div class="resultados">
-          <ol>
-            <li>Resultado 1: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><button type="submit" class="boton">Ir</button>
-            <li>Resultado 2: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><button type="submit" class="boton">Ir</button>
-            <li>Resultado 3: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><button type="submit" class="boton">Ir</button>
-          </ol>
+        <div class="titulo-derecha">
+            <br>
+            <h3><b>RESULTADOS</b></h3>
+           
+            <div class="filtro-resultados">
+                <ol>
+                    <li>Resultado 1: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><div class="filtro-margen"><button type="submit" class="filtropelo">Ir</button></div>
+                    <li>Resultado 2: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><div class="filtro-margen"><button type="submit" class="filtropelo">Ir</button></div>
+                    <li>Resultado 3: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><div class="filtro-margen"><button type="submit" class="filtropelo">Ir</button></div>
+                  </ol>
+                 
+              </div>
         </div>
-      
-        </div>
+        
+        
         
       </div>
+        </div>
     <br>
     
     <%@include file="footer.jsp" %>
