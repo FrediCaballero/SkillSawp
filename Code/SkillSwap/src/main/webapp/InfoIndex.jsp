@@ -9,7 +9,7 @@
             <div class="text-banner">
                 <h1>SkillSwap</h1>
                 <h3>Conéctate con expertos, gana oportunidades y ofrece tus servicios de manera eficiente.</h3>
-                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, asperiores.</b></p>
+                <p><b>Calidad garantizada en todos tus proyectos!</b></p>
             </div>
         </div>    
     </div>
@@ -26,11 +26,9 @@
                 
                 <br>
                 
-                <div class="col-lg-5">
-                    <h1 class="text-center text-primary">¿Quiénes Somos?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus placeat facere non vitae dolores modi 
-                        eius sapiente quam sit provident culpa expedita totam consectetur itaque ad, reiciendis voluptates fugit!.
-                        eius sapiente quam sit provident culpa expedita totam consectetur itaque ad, reiciendis voluptates fugit.</p>
+                <div class="col-lg-5 text-center">
+                    <h1 class="text-primary inline-block">¿Quiénes Somos?</h1>
+                    <p>Somos un sitio enfocado en conectar talentosos profesionales con usuarios que buscan soluciones a sus proyectos. Nos aseguramos de que todos tus proyectos se cumplan. Contamos con profesionales que puedes escoger basándote en sus reputaciones!.</p>
                     
                 </div>
                 
@@ -44,7 +42,7 @@
             <div class="fondo" style="background:rgb(199, 193, 193);">
                 <div class="text-fondo p-4">
                 <h3 class="text-center">Que Servicios Ofrecemos</h3>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos expedita, fugiat, ut enim molestias debitis atque dolorum velit doloremque a id quo rem delectus sint possimus dolor doloribus numquam ipsa. ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laudantium recusandae, minima exercitationem voluptatem distinctio saepe ipsa, fuga sint, quis placeat autem! Ipsum fuga deleniti odio id, eveniet maiores placeat.</p>
+                <p class="text-center">Ofrecemos los servicios que tú nos sugieres! Además de servicios ofrecidos por las preferencias de los profesionales de nuestro sitio web.</p>
                 </div>
             </div>
         </div>
@@ -52,42 +50,8 @@
 
 <div class="carta py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-ms-6 mb-3">
-                    <div class="card">
-                    <div class="card-body">
-                        <h3 class="text-center">Carta Uno</h3>
-                        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-ms-6 mb-3">
-                  <div class="card">
-                  <div class="card-body bg-primary" style="color:white;">
-                      <h3>Carta Dos</h3>
-                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-ms-6 mb-3">
-                  <div class="card">
-                  <div class="card-body">
-                      <h3 class="text-center">Carta Tres</h3>
-                      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-ms-6 mb-3">
-                  <div class="card">
-                  <div class="card-body bg-primary" style="color:white;">
-                      <h3>Carta Cuatro</h3>
-                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
         </div>
-    </div>
+</div>
 
     <section>
         <div class="container">
@@ -98,23 +62,23 @@
                     <div class="card" style="width: 18rem;">
                         <img src="images/persona2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Juan Perez consiguió reparar su computadora a tiempo antes de su entrevista laboral virtual.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="images/persona2.jpg" class="card-img-top" alt="...">
+                        <img src="https://www.observatoriorh.com/wp-content/uploads/2019/05/master-españa-imf.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Elena consiguió diseñar su cv con un experto y consiguió el trabajo de sus sueños.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="images/persona2.jpg" class="card-img-top" alt="...">
+                        <img src="https://www.estylomagazine.com/wp-content/uploads/2021/12/Post_AlexanderEstrella-01.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Alexander consiguió crear su marca parsonal gracias a nuestros expertos e impulsó sus negocios.</p>
                         </div>
                     </div>
                 </div>
@@ -132,20 +96,20 @@
                     <br>
                     
                     <h1 class="text-center text-primary">Como suscribirse a SkillSwap</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus placeat facere non vitae dolores modi eius</p>
+                    <p>Posiciona tus ofertas y obten más alcance potencial!</p>
                    
                 </div>
                 <div class="col-lg-8">
                     <br>
                     <h3 style="text-align: center"></h3>
                         <ol>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Registrate en el sitio web!</li>
                             <hr>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Ingresa al apartado de suscripciones!</li>
                             <hr>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Ingresa tus datos!</li>
                             <hr>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Espera la validación de tu compra!</li>
                             <hr>
                             <p>Ya estas suscrito!!</p>
                         </ol>    
