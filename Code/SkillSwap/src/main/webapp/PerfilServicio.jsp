@@ -126,7 +126,7 @@
             </p>
             <div class="datos">
                 <ul id="lista-gatos-aman">
-                  <li>Tecnico: Gabriel gomez</li>
+                  <li>Profesor: Gabriel gomez</li>
                   <li>Email: Gabriel@gmail.com</li>
                   </ul>
                   
