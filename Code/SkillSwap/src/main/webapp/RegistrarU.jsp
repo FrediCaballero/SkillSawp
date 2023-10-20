@@ -20,40 +20,52 @@
                 <form method="post">
                     <p>
                         <label>Nombre</label>
-                        <input type="text">
+                        <input type="text" placeholder="Nombre" name="name">
                     </p>
                     <p>
                         <label>Apellido</label>
-                        <input type="text">
+                        <input type="text" placeholder="Apellido" name="lastname">
                     </p>
                     <p>
                         <label>Correo Electronico</label>
-                        <input type="email">
+                        <input type="email" placeholder="Correo Electronico" name="email">
                     </p>
                     <p>
                         <label>DNI</label>
-                        <input type="text">
+                        <input type="text" placeholder="DNI" name="DNI">
                     </p>
                     <p>
                         <label>Fecha</label>
-                        <input type="date">
+                        <input type="date" name="birthdate">
                     </p>
                     <p>
                         <label>Contraseña</label>
-                        <input type="password">
+                        <input type="password" placeholder="Contraseña" name="password">
                     </p>
                     <p>
                         <label>Confirmar Contraseña</label>
-                        <input type="password">
+                        <input type="password" placeholder="Confirmar Contraseña">
                     </p>
                     <p class="block">
-                        <button>
-                            Enviar
-                        </button>
+                        <button type="submit" value="Registrar">Enviar</button>
                     </p>
                 </form>
+                
             </div>
         </div>
+        <%@ page import="beans.Registro" %>
+                <%
+                    if (request.getMethod().equals("POST")) {
+                        String name = request.getParameter("name");
+                        String lastname = request.getParameter("lastname");
+                        String email = request.getParameter("email");
+                        String DNI = request.getParameter("DNI");
+                        String birthdate = request.getParameter("birthdate");
+                        String password = request.getParameter("password");
+                        Registro.insertarUsuario(name, lastname, email, DNI, birthdate, password);
+                        // Puedes redirigir al usuario a otra página o mostrar un mensaje de éxito aquí.
+                    }
+                %>
         <%@include file="footer.jsp" %>
     </body>
 </html>
