@@ -1,7 +1,6 @@
 # SkillSawp
-Repositorio Original: https://github.com/HuamanAngel/TalentWork
 
-# Comandos Básicos de Git
+## Comandos Básicos de Git
 
 **Clonar un repositorio remoto:**
 
