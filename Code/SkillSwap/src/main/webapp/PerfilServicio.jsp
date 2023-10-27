@@ -12,6 +12,8 @@
         <title>SkillSwap</title>
         <%@include file="referencias.jsp" %>
         <%@include file="scripPremium.jsp" %>
+        <%@include file="VentanaContrato.jsp" %>
+
     </head>
     <body>
         
@@ -23,7 +25,7 @@
         <div class="sombra-azul">
         <div class="servicio-derecha">
         <div class="image-derecha">
-            <img src="images/Clases particulares.jpg" alt="Imagen" class="bordes-redondeados">
+        <img src="images/Clases particulares.jpg" alt="Imagen" class="bordes-redondeados">
         </div>
         <div class="content-derecha">
             <br>
@@ -34,9 +36,44 @@
                 <ul id="lista-gatos-aman">
                   <li>Tecnico: Juan Garcia</li>
                   <li>Email: Garcia@gmail.com</li>
+                   <div class="boton-contratarservicio">
+                   <button onclick="abrirVentanaContratacion();">Contratar</button> 
+                   </div>
+                    <div id="ventanaContratacion" class="ventana-emergente ventana-contrato">
+                        <div class="contenido">
+                        <span class="cerrar" onclick="cerrarVentanaContratacion();">&times;</span>
+                        <h2>Contrato de Servicio</h2>
+                        <form action="procesar_contratacion.jsp" method="post">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            
+                            <label for="Lugar">Lugar</label>
+                            <input id="descripcion" name="descripcion" required>
+                            
+                            <label for="fecha">Fecha del servicio a realizar:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                           
+                            <label for="descripcion1">Descripción del Servicio:</label>
+                            <textarea id="descripcion1" name="descripcion1" class="descripcion1" required></textarea>
+
+
+                            <!-- Otros campos relevantes para la contratación -->
+
+                            <div class="botones-container">
+                            <button onclick="cerrarVentanaContratacion();" class="cancelar-btn">Cancelar</button>
+                            <input type="submit" value="Contratar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+
                   </ul>
                   
-                 <div class="margen"><button type="submit" class="pelo">Contratar</button></div>
+                 
               </div>
         </div>
     </div>
@@ -54,9 +91,41 @@
                     <ul id="lista-gatos-aman">
                       <li>Tecnico: Eduardo Lopez</li>
                       <li>Email: Lopez@gmail.com</li>
+                   <div class="boton-contratarservicio">
+                   <button onclick="abrirVentanaContratacion();">Contratar</button> 
+                   </div>
+                    <div id="ventanaContratacion" class="ventana-emergente ventana-contrato">
+                        <div class="contenido">
+                        <span class="cerrar" onclick="cerrarVentanaContratacion();">&times;</span>
+                        <h2>Contrato de Servicio</h2>
+                        <form action="procesar_contratacion.jsp" method="post">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            
+                            <label for="Lugar">Lugar</label>
+                            <input id="descripcion" name="descripcion" required>
+                            
+                            <label for="fecha">Fecha del servicio a realizar:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                           
+                            <label for="descripcion1">Descripción del Servicio:</label>
+                            <textarea id="descripcion1" name="descripcion1" class="descripcion1" required></textarea>
+
+
+                            <!-- Otros campos relevantes para la contratación -->
+
+                            <div class="botones-container">
+                            <button onclick="cerrarVentanaContratacion();" class="cancelar-btn">Cancelar</button>
+                            <input type="submit" value="Contratar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
                       </ul>
                       
-                     <div class="margen"><button type="submit" class="pelo">Contratar</button></div>
                   </div>
             </div>
             <div class="image-izquierda">
@@ -80,9 +149,41 @@
                 <ul id="lista-gatos-aman">
                   <li>Tecnico: Manolo Garcia</li>
                   <li>Email: Manolo@gmail.com</li>
+                   <div class="boton-contratarservicio">
+                   <button onclick="abrirVentanaContratacion();">Contratar</button> 
+                   </div>
+                    <div id="ventanaContratacion" class="ventana-emergente ventana-contrato">
+                        <div class="contenido">
+                        <span class="cerrar" onclick="cerrarVentanaContratacion();">&times;</span>
+                        <h2>Contrato de Servicio</h2>
+                        <form action="procesar_contratacion.jsp" method="post">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            
+                            <label for="Lugar">Lugar</label>
+                            <input id="descripcion" name="descripcion" required>
+                            
+                            <label for="fecha">Fecha del servicio a realizar:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                           
+                            <label for="descripcion1">Descripción del Servicio:</label>
+                            <textarea id="descripcion1" name="descripcion1" class="descripcion1" required></textarea>
+
+
+                            <!-- Otros campos relevantes para la contratación -->
+
+                            <div class="botones-container">
+                            <button onclick="cerrarVentanaContratacion();" class="cancelar-btn">Cancelar</button>
+                            <input type="submit" value="Contratar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
                   </ul>
                   
-                 <div class="margen"><button type="submit" class="pelo">Contratar</button></div>
               </div>
         </div>
     </div>
@@ -101,9 +202,41 @@
                     <ul id="lista-gatos-aman">
                       <li>Tecnico: jeremy inga</li>
                       <li>Email: inga@gmail.com</li>
+                   <div class="boton-contratarservicio">
+                   <button onclick="abrirVentanaContratacion();">Contratar</button> 
+                   </div>
+                    <div id="ventanaContratacion" class="ventana-emergente ventana-contrato">
+                        <div class="contenido">
+                        <span class="cerrar" onclick="cerrarVentanaContratacion();">&times;</span>
+                        <h2>Contrato de Servicio</h2>
+                        <form action="procesar_contratacion.jsp" method="post">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            
+                            <label for="Lugar">Lugar</label>
+                            <input id="descripcion" name="descripcion" required>
+                            
+                            <label for="fecha">Fecha del servicio a realizar:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                           
+                            <label for="descripcion1">Descripción del Servicio:</label>
+                            <textarea id="descripcion1" name="descripcion1" class="descripcion1" required></textarea>
+
+
+                            <!-- Otros campos relevantes para la contratación -->
+
+                            <div class="botones-container">
+                            <button onclick="cerrarVentanaContratacion();" class="cancelar-btn">Cancelar</button>
+                            <input type="submit" value="Contratar">
+                            </div>
+                        </form>
+                    </div>
+                </div>                      
                       </ul>
                       
-                     <div class="margen"><button type="submit" class="pelo">Contratar</button></div>
                   </div>
             </div>
             <div class="image-izquierda">
@@ -128,9 +261,41 @@
                 <ul id="lista-gatos-aman">
                   <li>Profesor: Gabriel gomez</li>
                   <li>Email: Gabriel@gmail.com</li>
+                   <div class="boton-contratarservicio">
+                   <button onclick="abrirVentanaContratacion();">Contratar</button> 
+                   </div>
+                    <div id="ventanaContratacion" class="ventana-emergente ventana-contrato">
+                        <div class="contenido">
+                        <span class="cerrar" onclick="cerrarVentanaContratacion();">&times;</span>
+                        <h2>Contrato de Servicio</h2>
+                        <form action="procesar_contratacion.jsp" method="post">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            
+                            <label for="Lugar">Lugar</label>
+                            <input id="descripcion" name="descripcion" required>
+                            
+                            <label for="fecha">Fecha del servicio a realizar:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                           
+                            <label for="descripcion1">Descripción del Servicio:</label>
+                            <textarea id="descripcion1" name="descripcion1" class="descripcion1" required></textarea>
+
+
+                            <!-- Otros campos relevantes para la contratación -->
+
+                            <div class="botones-container">
+                            <button onclick="cerrarVentanaContratacion();" class="cancelar-btn">Cancelar</button>
+                            <input type="submit" value="Contratar">
+                            </div>
+                        </form>
+                    </div>
+                </div>                  
                   </ul>
                   
-                 <div class="margen"><button type="submit" class="pelo">Contratar</button></div>
               </div>
         </div>
     </div>
@@ -149,9 +314,41 @@
                     <ul id="lista-gatos-aman">
                       <li>Tecnico: Amanda Mori</li>
                       <li>Email: Mori@gmail.com</li>
+                   <div class="boton-contratarservicio">
+                   <button onclick="abrirVentanaContratacion();">Contratar</button> 
+                   </div>
+                    <div id="ventanaContratacion" class="ventana-emergente ventana-contrato">
+                        <div class="contenido">
+                        <span class="cerrar" onclick="cerrarVentanaContratacion();">&times;</span>
+                        <h2>Contrato de Servicio</h2>
+                        <form action="procesar_contratacion.jsp" method="post">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            
+                            <label for="Lugar">Lugar</label>
+                            <input id="descripcion" name="descripcion" required>
+                            
+                            <label for="fecha">Fecha del servicio a realizar:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                           
+                            <label for="descripcion1">Descripción del Servicio:</label>
+                            <textarea id="descripcion1" name="descripcion1" class="descripcion1" required></textarea>
+
+
+                            <!-- Otros campos relevantes para la contratación -->
+
+                            <div class="botones-container">
+                            <button onclick="cerrarVentanaContratacion();" class="cancelar-btn">Cancelar</button>
+                            <input type="submit" value="Contratar">
+                            </div>
+                        </form>
+                    </div>
+                </div>                      
                       </ul>
                       
-                     <div class="margen"><button type="submit" class="pelo">Contratar</button></div>
                   </div>
             </div>
             <div class="image-izquierda">

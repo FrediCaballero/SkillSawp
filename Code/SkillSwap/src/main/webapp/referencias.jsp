@@ -22,3 +22,4 @@
 <link rel="stylesheet" href="estilos/Perfil.css"/>
 <link rel="stylesheet" href="estilos/perfilservicios.css"/>
 <link rel="stylesheet" href="estilos/FiltroServicios.css"/>
+<link rel="stylesheet" href="estilos/ContratarServicio.css"/>
