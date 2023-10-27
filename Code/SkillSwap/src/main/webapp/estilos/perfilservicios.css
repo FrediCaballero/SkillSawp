@@ -24,10 +24,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
 }
 
 .bordes-redondeados {
-    width: 30%; /* Puedes ajustar el porcentaje según tus necesidades. */
-    max-width: 300px; /* Establece un ancho máximo para que las imágenes no se agranden demasiado en pantallas grandes. */
-    height: auto; /* Mantiene la relación de aspecto original. */
+    width: 400px;
     border-radius: 10%;
+    height: auto;
     margin: 25px 60px 25px 60px;
 }
 
@@ -92,9 +91,7 @@ p {
 .image-izquierda {
     
     margin-left: 20px; /* Espacio entre la imagen y el contenido (ajusta según tus necesidades). */
-    
 }
-
 /* Cambio de diseño en pantallas más pequeñas */
 @media (max-width: 768px) {
     .servicio-derecha {

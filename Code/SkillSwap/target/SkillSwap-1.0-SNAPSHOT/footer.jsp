@@ -23,7 +23,7 @@
                             <li><a href="login.jsp">Login</a></li>
                             <li><a href="RegistrarU.jsp">Sign Up</a></li>
                             <li><a href="registroDeServicios.jsp">Registro de servicio</a></li>
-                            <li><a href="perfilUsuario.jsp">Mi Perfil</a></li>
+                            <li><a href="login.jsp">Mi Perfil</a></li>
                         </ul>
                     </div>
                 </div>
