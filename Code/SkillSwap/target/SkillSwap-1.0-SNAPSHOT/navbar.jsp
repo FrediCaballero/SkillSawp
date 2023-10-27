@@ -8,7 +8,7 @@
                     <a href="PerfilServicio.jsp" class="nav-link active-page">Oficio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="PerfilServicio.jsp" class="nav-link active-page">Talento</a>
+                    <a href="Talento.jsp" class="nav-link active-page">Talento</a>
                 </li>
                 <li class="nav-item">
                     <a href="servicioRetos.jsp" class="nav-link active-page">Retos</a>
