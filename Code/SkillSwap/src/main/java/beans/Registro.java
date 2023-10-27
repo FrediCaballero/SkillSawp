@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class Registro {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/skillswap";
     private static final String JDBC_USER = "root";
-    private static final String JDBC_PASSWORD = "";
+    private static final String JDBC_PASSWORD = "02Noviembre";
 
     public static void insertarUsuario(String name, String lastname, String email, String DNI, String birthdate, String password) {
         Connection connection = null;

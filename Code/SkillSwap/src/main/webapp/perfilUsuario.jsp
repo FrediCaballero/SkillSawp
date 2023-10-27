@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img src="https://www.emprendiendohistorias.com/wp-content/uploads/2020/05/trabajos-online-por-internet.jpg" alt=""/>
+                            <img src="https://github.com/mdo.png" alt=""/>
                             <div class="file btn btn-lg btn-primary">
                                 Cambiar foto
                                 <input type="file" name="file"/>
