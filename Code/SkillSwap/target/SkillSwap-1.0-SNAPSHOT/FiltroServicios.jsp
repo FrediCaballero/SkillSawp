@@ -12,66 +12,67 @@
         <title>SkillSwap</title>
         <%@include file="referencias.jsp" %>
         <%@include file="scripPremium.jsp" %>
+        
     </head>
-    <body>
-        
-        <%@include file="navbar.jsp" %>
-        
-        <h2>Filtro de Categorias</h2>
-    <div>
-        <p><b>Rango de precio</b></p>
-        <input type="text" placeholder="Precio minimo" required> a <input type="text" placeholder="Precio maximo" required>
-        <button type="submit">Buscar</button>
-        <br>
-        <br>
-        <label for="categoria">Selecciona un oficio:</label>
-        <select id="categoria">
-            <option value="todos">Todos</option>
-            <option value="categoria1">Clases Particulares</option>
-            <option value="categoria2">Reparador de Computadoras</option>
-        </select>
-
-    </div>
-
-    <br>
-
-    <div>
-        <label for="categoria">Selecciona un talento:</label>
-        <select id="categoria">
-            <option value="todos">Todos</option>
-            <option value="categoria1">Talento numero uno</option>
-            <option value="categoria2">Talento numero dos</option>
-        </select>
-    </div>
-
-    <br>
-
-    <div class="filtro-sombra">
-    <div class="filtro-derecha">
-        <div class="filtro-imagen-derecha"> 
-        <img src="images/resultado.jpg" alt="Imagen de mujer trabajadora" class="bordes"> 
-        </div>
-        
-        <div class="titulo-derecha">
-            <br>
-            <h3><b>RESULTADOS</b></h3>
-           
-            <div class="filtro-resultados">
-                <ol>
-                    <li>Resultado 1: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><div class="filtro-margen"><button type="submit" class="filtropelo">Ir</button></div>
-                    <li>Resultado 2: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><div class="filtro-margen"><button type="submit" class="filtropelo">Ir</button></div>
-                    <li>Resultado 3: xxxxxxxxxxxxxxxxxxxxxxxxxxx</li><div class="filtro-margen"><button type="submit" class="filtropelo">Ir</button></div>
-                  </ol>
-                 
-              </div>
-        </div>
-        
-        
-        
-      </div>
-        </div>
-    <br>
     
-    <%@include file="footer.jsp" %>
+    <body class="cuerpo_filtro_servicios">
+        <%@include file="navbar.jsp" %>
+    <div class="pagina-principal">
+
+    <div class="contenido-pagina">
+        <div>
+            <div class="tarjeta">
+                <div class="tarjeta-encabezado">
+                    <h2 class="title">Encuentra el servicio que deseas</h2>
+                </div>
+                <div class="tarjeta-contenido">
+                    <form>
+                        <div class="forma-grupo">
+                            <label>Seleccione el tipo de servicio</label>
+                            <select>
+                                <option value="">Seleccione el tipo de servicio correspondiente</option>
+                                <option value="A">Oficio</option>
+                                <option value="B">Talento</option>
+                            </select>
+                        </div>
+                        <div class="forma-grupo">
+                            <label>Seleccione el nombre del servicio</label>
+                            <select>
+                                <option value="">Seleccione el nombre del servicio correspondiente</option>
+                                    <option value="A">Clases particulares</option>
+                                    <option value="B">Reparador de computadoras</option>
+                                    <option value="C">Reparador de refrigeradoras</option>
+                                    <option value="D">Tecnico de Autodesk</option>
+                                    <option value="E">Profesor de matematicas</option>
+                                    <option value="F">Asesor comercial</option>
+                            </select>
+                        </div>
+                        <div class="forma-grupo">
+                            <label>Ingrese el nombre de su servicio</label>
+                            <input type="text">
+                        </div>
+                        
+                        <div class="forma-grupo">
+                            <label>Ingrese el rango de costo deseado</label>
+                            <div class="input-container">
+                                    <input type="number" min="10" max="10000" class="numero">
+                                    <span>a</span>
+                                    <input type="number" min="10" max="10000" class="numero">
+                                </div>
+                        </div>
+                        
+                        
+                        <button type="submit" class="btn_buscar_servicio">Buscar servicio</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+        <%@include file="footer.jsp" %>
+    
     </body>
+    
 </html>

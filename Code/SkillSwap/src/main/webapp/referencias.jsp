@@ -20,5 +20,5 @@
 <link rel="stylesheet" href="estilos/pago.css"/>
 <link rel="stylesheet" href="estilos/InfoIndex.css"/>
 <link rel="stylesheet" href="estilos/Perfil.css"/>
-<link rel="stylesheet" href="estilos/Filtro.css"/>
 <link rel="stylesheet" href="estilos/perfilservicios.css"/>
+<link rel="stylesheet" href="estilos/FiltroServicios.css"/>
