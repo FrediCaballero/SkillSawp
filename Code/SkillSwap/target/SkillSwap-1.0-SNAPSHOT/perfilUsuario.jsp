@@ -239,7 +239,7 @@
                                                 <label>Nacimiento</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>25/09/1997</p>
+                                                <p>24/09/1997</p>
                                             </div>
                                         </div>
                             </div>
