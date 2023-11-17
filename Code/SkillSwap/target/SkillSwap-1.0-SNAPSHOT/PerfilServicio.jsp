@@ -37,7 +37,17 @@
                   <li>Tecnico: Juan Garcia</li>
                   <li>Email: Garcia@gmail.com</li>
                    <div class="boton-contratarservicio">
-                   <button onclick="abrirVentanaContratacion();">Contratar</button> 
+                       <% if (session.getAttribute("usuarioAutenticado") == null || !(boolean) session.getAttribute("usuarioAutenticado")) { %>
+                        <button onclick="redirigirAPagina()">Contratar</button>
+                        <script>
+                        function redirigirAPagina() {
+                            // Puedes cambiar la URL dentro de window.location.href a la página a la que deseas redirigir.
+                            window.location.href = "login.jsp";
+                        }
+                        </script>
+                       <% } else { %>
+                        <button onclick="abrirVentanaContratacion();">Contratar</button>
+                       <% } %>
                    </div>
                     <div id="ventanaContratacion" class="ventana-emergente ventana-contrato">
                         <div class="contenido">
@@ -61,7 +71,7 @@
 
 
                             <!-- Otros campos relevantes para la contratación -->
-
+                            
                             <div class="botones-container">
                             <button onclick="cerrarVentanaContratacion();" class="cancelar-btn">Cancelar</button>
                             <input type="submit" value="Contratar">

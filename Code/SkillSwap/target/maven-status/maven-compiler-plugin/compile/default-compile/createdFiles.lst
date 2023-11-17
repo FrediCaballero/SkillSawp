@@ -1,3 +1,4 @@
-beans\Autenticacion.class
-beans\Conexion.class
-beans\Registro.class
+tools\Conexion.class
+controller\Registro.class
+model\Usuario.class
+controller\Autenticacion.class

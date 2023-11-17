@@ -44,28 +44,36 @@
                     </p>
                     <p>
                         <label>Confirmar Contraseña</label>
-                        <input type="password" placeholder="Confirmar Contraseña">
+                        <input type="password" placeholder="Confirmar Contraseña" name="confirmPassword">
                     </p>
                     <p class="block">
                         <button type="submit" value="Registrar">Enviar</button>
                     </p>
                 </form>
-                
             </div>
         </div>
-        <%@ page import="beans.Registro" %>
-                <%
-                    if (request.getMethod().equals("POST")) {
-                        String name = request.getParameter("name");
-                        String lastname = request.getParameter("lastname");
-                        String email = request.getParameter("email");
-                        String DNI = request.getParameter("DNI");
-                        String birthdate = request.getParameter("birthdate");
-                        String password = request.getParameter("password");
-                        Registro.insertarUsuario(name, lastname, email, DNI, birthdate, password);
-                        // Puedes redirigir al usuario a otra página o mostrar un mensaje de éxito aquí.
-                    }
-                %>
+        <%@ page import="controller.Registro" %>
+        <%
+            if (request.getMethod().equals("POST")) {
+                String name = request.getParameter("name");
+                String lastname = request.getParameter("lastname");
+                String email = request.getParameter("email");
+                String DNI = request.getParameter("DNI");
+                String birthdate = request.getParameter("birthdate");
+                String password = request.getParameter("password");
+                String confirmPassword = request.getParameter("confirmPassword");
+
+                if (password.equals(confirmPassword)) {
+                    // Contraseña confirmada correctamente
+                    Registro registro = new Registro();
+                    registro.insertarUsuario(name, lastname, email, DNI, birthdate, password);
+                    response.sendRedirect("index.jsp"); // Redirigir a una página de éxito
+                } else {
+                    // Contraseña y confirmación no coinciden, mostrar mensaje de error
+                    out.println("Las contraseñas no coinciden. Inténtalo de nuevo.");
+                }
+            }
+        %>
         <%@include file="footer.jsp" %>
     </body>
 </html>

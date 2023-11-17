@@ -28,26 +28,31 @@
                         <input class="input" name="password" type="password"  placeholder="Contraseña">
                     </div>
                     
-                    <%@ page import="beans.Autenticacion" %>
-                        <%
-                        if (request.getMethod().equals("POST")) {
-                            String email = request.getParameter("email");
-                            String contrasena = request.getParameter("password");
+                    <%@ page import="controller.Autenticacion" %>
+                    <%@ page import="org.mindrot.jbcrypt.BCrypt" %>
 
-                            Autenticacion autenticacion = new Autenticacion();
-                            boolean autenticado = autenticacion.autenticarUsuario(email, contrasena);
+                    <%
+                    if (request.getMethod().equals("POST")) {
+                        String email = request.getParameter("email");
+                        String contrasena = request.getParameter("password");
 
-                            if (autenticado) {
-                                // Usuario autenticado
-                                // Guardar información en la sesión para indicar que el usuario está autenticado
-                                session.setAttribute("usuarioAutenticado", true);
-                                response.sendRedirect("perfilUsuario.jsp");
-                            } else {
-                                // Las credenciales no son válidas, puedes mostrar un mensaje de error
-                                out.println("Credenciales incorrectas. Inténtalo de nuevo.");
-                            }
+                        Autenticacion autenticacion = new Autenticacion();
+
+                        // Verifica si el usuario está autenticado
+                        boolean autenticado = autenticacion.autenticarUsuario(email, contrasena);
+
+                        if (autenticado) {
+                            // Usuario autenticado
+                            // Guarda información en la sesión para indicar que el usuario está autenticado
+                            session.setAttribute("usuarioAutenticado", true);
+                            response.sendRedirect("perfilUsuario.jsp");
+                        } else {
+                            // Las credenciales no son válidas, muestra un mensaje de error
+                            out.println("Credenciales incorrectas. Inténtalo de nuevo.");
                         }
-                        %>
+                    }
+                    %>
+
 
                     
                     <p>¿Has olvidado tu contraseña? <a class="login-link">Haz click aquí</a></p>
