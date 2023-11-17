@@ -36,6 +36,31 @@
                 <ul id="lista-gatos-aman">
                   <li>Tecnico: Juan Garcia</li>
                   <li>Email: Garcia@gmail.com</li>
+                  <div class="rating">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                  </div>
+                  <script>
+                    // Función para establecer las estrellas según el número proporcionado
+                    function setStars(number) {
+                        const stars = document.querySelectorAll('.star');
+
+                        stars.forEach(function(star, index) {
+                            if (index < number) {
+                                star.classList.add('checked');
+                            } else {
+                                star.classList.remove('checked');
+                            }
+                        });
+                    }
+
+                    // Llamada a la función con el número deseado
+                    calificacionInicial = 3; // Puedes cambiar esto al número deseado
+                    setStars(calificacionInicial);
+                  </script>
                    <div class="boton-contratarservicio">
                        <% if (session.getAttribute("usuarioAutenticado") == null || !(boolean) session.getAttribute("usuarioAutenticado")) { %>
                         <button onclick="redirigirAPagina()">Contratar</button>
@@ -101,6 +126,31 @@
                     <ul id="lista-gatos-aman">
                       <li>Tecnico: Eduardo Lopez</li>
                       <li>Email: Lopez@gmail.com</li>
+                  <div class="rating">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                  </div>
+                  <script>
+                    // Función para establecer las estrellas según el número proporcionado
+                    function setStars(number) {
+                        const stars = document.querySelectorAll('.star');
+
+                        stars.forEach(function(star, index) {
+                            if (index < number) {
+                                star.classList.add('checked');
+                            } else {
+                                star.classList.remove('checked');
+                            }
+                        });
+                    }
+
+                    // Llamada a la función con el número deseado
+                    calificacionInicial = 3; // Puedes cambiar esto al número deseado
+                    setStars(calificacionInicial);
+                  </script>
                    <div class="boton-contratarservicio">
                    <button onclick="abrirVentanaContratacion();">Contratar</button> 
                    </div>
@@ -159,6 +209,31 @@
                 <ul id="lista-gatos-aman">
                   <li>Tecnico: Manolo Garcia</li>
                   <li>Email: Manolo@gmail.com</li>
+                                    <div class="rating">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                  </div>
+                  <script>
+                    // Función para establecer las estrellas según el número proporcionado
+                    function setStars(number) {
+                        const stars = document.querySelectorAll('.star');
+
+                        stars.forEach(function(star, index) {
+                            if (index < number) {
+                                star.classList.add('checked');
+                            } else {
+                                star.classList.remove('checked');
+                            }
+                        });
+                    }
+
+                    // Llamada a la función con el número deseado
+                    calificacionInicial = 3; // Puedes cambiar esto al número deseado
+                    setStars(calificacionInicial);
+                  </script>
                    <div class="boton-contratarservicio">
                    <button onclick="abrirVentanaContratacion();">Contratar</button> 
                    </div>
@@ -212,6 +287,31 @@
                     <ul id="lista-gatos-aman">
                       <li>Tecnico: jeremy inga</li>
                       <li>Email: inga@gmail.com</li>
+                                        <div class="rating">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                  </div>
+                  <script>
+                    // Función para establecer las estrellas según el número proporcionado
+                    function setStars(number) {
+                        const stars = document.querySelectorAll('.star');
+
+                        stars.forEach(function(star, index) {
+                            if (index < number) {
+                                star.classList.add('checked');
+                            } else {
+                                star.classList.remove('checked');
+                            }
+                        });
+                    }
+
+                    // Llamada a la función con el número deseado
+                    calificacionInicial = 3; // Puedes cambiar esto al número deseado
+                    setStars(calificacionInicial);
+                  </script>
                    <div class="boton-contratarservicio">
                    <button onclick="abrirVentanaContratacion();">Contratar</button> 
                    </div>
@@ -271,6 +371,31 @@
                 <ul id="lista-gatos-aman">
                   <li>Profesor: Gabriel gomez</li>
                   <li>Email: Gabriel@gmail.com</li>
+                                    <div class="rating">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                  </div>
+                  <script>
+                    // Función para establecer las estrellas según el número proporcionado
+                    function setStars(number) {
+                        const stars = document.querySelectorAll('.star');
+
+                        stars.forEach(function(star, index) {
+                            if (index < number) {
+                                star.classList.add('checked');
+                            } else {
+                                star.classList.remove('checked');
+                            }
+                        });
+                    }
+
+                    // Llamada a la función con el número deseado
+                    calificacionInicial = 3; // Puedes cambiar esto al número deseado
+                    setStars(calificacionInicial);
+                  </script>
                    <div class="boton-contratarservicio">
                    <button onclick="abrirVentanaContratacion();">Contratar</button> 
                    </div>
@@ -324,6 +449,31 @@
                     <ul id="lista-gatos-aman">
                       <li>Tecnico: Amanda Mori</li>
                       <li>Email: Mori@gmail.com</li>
+                                        <div class="rating">
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                    <i class="bi bi-star-fill star"></i>
+                  </div>
+                  <script>
+                    // Función para establecer las estrellas según el número proporcionado
+                    function setStars(number) {
+                        const stars = document.querySelectorAll('.star');
+
+                        stars.forEach(function(star, index) {
+                            if (index < number) {
+                                star.classList.add('checked');
+                            } else {
+                                star.classList.remove('checked');
+                            }
+                        });
+                    }
+
+                    // Llamada a la función con el número deseado
+                    calificacionInicial = 3; // Puedes cambiar esto al número deseado
+                    setStars(calificacionInicial);
+                  </script>
                    <div class="boton-contratarservicio">
                    <button onclick="abrirVentanaContratacion();">Contratar</button> 
                    </div>
