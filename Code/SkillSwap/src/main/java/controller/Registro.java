@@ -5,14 +5,10 @@ import tools.Conexion;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.Random;
+
 
 public class Registro {
-    
+
     public void insertarUsuario(String name, String lastname, String email, String DNI, String birthdate, String password) {
         Connection connection = null;
         Conexion conexion = null;
@@ -20,6 +16,7 @@ public class Registro {
         try {
             conexion = new Conexion();
             connection = conexion.conecta();
+
 
             String query = "INSERT INTO usuario (name, lastname, email, DNI, birthdate, password) VALUES (?, ?, ?, ?, ?, ?)";
             PreparedStatement statement = connection.prepareStatement(query);
@@ -32,19 +29,16 @@ public class Registro {
             String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
             statement.setString(6, hashedPassword);
 
-
             statement.executeUpdate();
             System.out.println("Registro insertado exitosamente");
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("Error al insertar usuario: " + e.getMessage());
         } finally {
-            if (connection != null) {
-                if (conexion != null) {
-                    conexion.cierraConexion();
-                }
+            // Cerrar la conexión sin manejar IOException, ya que la conexión no lanza IOException al cerrarse
+            if (connection != null && conexion != null) {
+                conexion.cierraConexion();
             }
         }
     }
-
 }
