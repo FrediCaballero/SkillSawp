@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page import="controller.Registro" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -52,7 +53,7 @@
                 </form>
             </div>
         </div>
-        <%@ page import="controller.Registro" %>
+
         <%
             if (request.getMethod().equals("POST")) {
                 String name = request.getParameter("name");
