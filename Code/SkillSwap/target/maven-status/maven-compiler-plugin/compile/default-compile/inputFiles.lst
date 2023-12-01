@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-C:\Users\EElite\Desktop\ProyectoTW\SkillSwap\Code\SkillSwap\src\main\java\controller\PasswordException.java
-C:\Users\EElite\Desktop\ProyectoTW\SkillSwap\Code\SkillSwap\src\main\java\tools\Conexion.java
-C:\Users\EElite\Desktop\ProyectoTW\SkillSwap\Code\SkillSwap\src\main\java\controller\Registro.java
-C:\Users\EElite\Desktop\ProyectoTW\SkillSwap\Code\SkillSwap\src\main\java\controller\ValidadorContraseña.java
-C:\Users\EElite\Desktop\ProyectoTW\SkillSwap\Code\SkillSwap\src\main\java\model\Usuario.java
-C:\Users\EElite\Desktop\ProyectoTW\SkillSwap\Code\SkillSwap\src\main\java\controller\Autenticacion.java
-=======
+C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\controller\BuzonController.java
+C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\controller\ValidadorContraseña.java
 C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\tools\Conexion.java
+C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\controller\VerificarUsuario.java
+C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\model\Mensaje.java
 C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\controller\Autenticacion.java
 C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\controller\Registro.java
 C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\model\Usuario.java
->>>>>>> 8cdc813cce7f37067edf2dde1388637e21a92f5d
+C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\controller\PasswordException.java
+C:\Users\51945\Desktop\Proyecto Taller Web\SkillSwap\Code\SkillSwap\src\main\java\model\Conversacion.java
