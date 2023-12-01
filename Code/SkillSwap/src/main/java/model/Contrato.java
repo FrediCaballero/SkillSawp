@@ -104,7 +104,4 @@ public class Contrato {
         this.conInitial = conInitial;
     }
     
-    
-    
-    
 }
