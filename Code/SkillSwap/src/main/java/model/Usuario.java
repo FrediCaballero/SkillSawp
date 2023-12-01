@@ -1,9 +1,11 @@
 package model;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import tools.Conexion;
 
 /**
@@ -103,5 +105,38 @@ public class Usuario {
 
     public void setImagen(String imagen) {
         this.imagen = imagen;
+    }
+    
+    public static ArrayList<Usuario> listarUsuarios(int userId) {
+        ArrayList<Usuario> usuarios = new ArrayList<>();
+        Conexion conexion = new Conexion();
+
+        try (Connection connection = conexion.conecta()) {
+            if (connection != null) {
+                String query = "SELECT * FROM Usuario WHERE id != ?";
+                try (PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+                    preparedStatement.setInt(1, userId);
+
+                    try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                        while (resultSet.next()) {
+                            String email = resultSet.getString("email");
+                            String password = resultSet.getString("password");
+                            String name = resultSet.getString("name");
+                            String lastname = resultSet.getString("lastname");
+                            String DNI = resultSet.getString("DNI");
+                            String birthdate = resultSet.getString("birthdate");
+                            String imagen = resultSet.getString("imagen");
+
+                            Usuario usuario = new Usuario(email, password, name, lastname, DNI, birthdate, imagen);
+                            usuarios.add(usuario);
+                        }
+                    }
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return usuarios;
     }
 }

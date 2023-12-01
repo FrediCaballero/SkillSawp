@@ -504,18 +504,6 @@
             </div>
             <div class="panel-escritura">
                 <form class="textarea">
-                    <div class="opcines">
-                        <button type="button">
-                            <i class="fas fa-file"></i>
-                            <label for="file"></label>
-                            <input type="file" id="file">
-                        </button>
-                        <button type="button">
-                            <i class="far fa-image"></i>
-                            <label for="img"></label>
-                            <input type="file" id="img">
-                        </button>
-                    </div>
                     <textarea placeholder="Escribir mensaje"></textarea>
                     <button type="button" class="enviar">
                         <i class="fas fa-paper-plane"></i>

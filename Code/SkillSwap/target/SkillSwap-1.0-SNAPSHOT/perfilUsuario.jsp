@@ -651,12 +651,8 @@
                         </div>
                     </div>
                 </div>
-
         </div>
-    
-    
-    
-    
+
         <!--Footer-->
     <%@include file="footer.jsp" %>
     </body>
