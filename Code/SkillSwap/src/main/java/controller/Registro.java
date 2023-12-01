@@ -33,7 +33,7 @@ public class Registro {
             System.out.println("Registro insertado exitosamente");
         } catch (SQLException e) {
             e.printStackTrace();
-            System.out.println("Error al insertar usuario: " + e.getMessage());
+            System.out.println("Error al registrar usuario: " + e.getMessage());
         } finally {
             // Cerrar la conexión sin manejar IOException, ya que la conexión no lanza IOException al cerrarse
             if (connection != null && conexion != null) {
