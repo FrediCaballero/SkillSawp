@@ -1,4 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page import="controller.RegistrarServicioController" %>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -122,37 +124,59 @@
                     <h2 class="title">Registre su servicio</h2>
                 </div>
                 <div class="card-body">
-                    <form action="{{ route('servicio.tecnico') }}" method="POST" enctype="multipart/form-data">
+
+                    <form method="post">
+
                         <div class="form-group">
-                            <label for="servicioTecn">Seleccione su servicio técnico perteneciente</label>
-                            <select class="form-control" id="servicioTecn" name="servicioTecn" required>
-                                <option value="">Seleccione su servicio correspondiente</option>
-                                <option value="A">Gasfitero de tuberías</option>
-                                <option value="B">Reparador de computadoras</option>
-                                <option value="C">Diseñador de ropa</option>
-                                <option value="D">Estampador de polos</option>
+                            <label for="servicioTecn">Seleccione el tipo de servicio que ofrecerá</label>
+                            <select class="form-control" id="servicioTecn" name="idCategoria" required>
+                                <option value="1">Oficio</option>
+                                <option value="2">Talento</option>
                             </select>
                         </div>
+
                         <div class="form-group">
                             <label for="nombreTecn">Ingrese el nombre de su servicio</label>
-                            <input class="form-control" id="nombreTecn" name="nombreTecn" type="text" required>
+                            <input class="form-control" id="nombreTecn" name="nombreTecn" type="name" required>
                         </div>
+
                         <div class="form-group">
                             <label for="detallesTecn">Ingrese los detalles de su servicio</label>
-                            <textarea class="form-control" id="detallesTecn" name="detallesTecn" rows="3" required></textarea>
+                            <textarea class="form-control" id="detallesTecn" name="description" rows="3" required></textarea>
                         </div>
+
                         <div class="form-group">
                             <label for="costoTecn">Ingrese el costo de su servicio</label>
-                            <input type="number" class="form-control" id="costoTecn" name="costoTecn" min="10" max="10000" required>
+                            <input class="form-control" id="costoTecn" name="price" min="10" max="10000" required>
                         </div>
+
                         <div class="form-group">
                             <label for="imagenTecn">Ingrese una imagen referente de su servicio</label>
-                            <input type="file" accept="image/bmp,image/jpeg,image/jpg,image/png" class="form-control-file" id="imagenTecn" name="imagenTecn" required>
-                            <p class="text-info">Mínimo Tamaño: 256x256px<br> Máximo Tamaño: 2048x2048px</p>
+                            <input class="form-control" id="imagenTecn" name="nombreTecn" type="imagen" required>
                         </div>
+
                         <button type="submit" class="btn_registro_servicio btn-primary">Guardar servicio</button>
+
                     </form>
                 </div>
+
+
+
+        <%
+            if (request.getMethod().equals("POST")) {
+                String idCategoria = request.getParameter("idCategoria");
+                String name = request.getParameter("name");
+                String description = request.getParameter("description");
+                String price = request.getParameter("price");
+                String imagen = request.getParameter("imagen");
+
+                RegistrarServicioController registro = new RegistrarServicioController();
+                registro.insertarServicio(idCategoria, name, description, price, imagen);
+                response.sendRedirect("index.jsp"); // Redirigir a una página de éxito
+
+            }
+        %>
+
             </div>
         </div>
     </div>
