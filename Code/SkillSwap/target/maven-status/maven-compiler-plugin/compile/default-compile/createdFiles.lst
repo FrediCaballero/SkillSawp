@@ -1,4 +1,7 @@
+controller\ValidadorContraseña.class
 tools\Conexion.class
 controller\Registro.class
-model\Usuario.class
 controller\Autenticacion.class
+controller\PasswordException.class
+model\Usuario.class
+controller\VerificarUsuario.class
