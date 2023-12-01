@@ -53,7 +53,7 @@
                 </form>
             </div>
         </div>
-
+        
         <%
             if (request.getMethod().equals("POST")) {
                 String name = request.getParameter("name");
