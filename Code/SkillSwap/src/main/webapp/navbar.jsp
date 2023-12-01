@@ -18,8 +18,8 @@
                 </li>
             </ul>
             <div class="ml-auto navbar-buttons">
-                <button type="button" class="btn btn-outline-light me-2" onclick="window.location.href = 'login.jsp';"> Login </button>
-                <button type="button" class="btn btn-link custom-btn-link" onclick="window.location.href = 'RegistrarU.jsp';">Sign up</button>
+                <button type="button" class="btn btn-outline-light me-2" onclick="window.location.href = 'http://127.0.0.1:8000/login';"> Login </button>
+                <button type="button" class="btn btn-link custom-btn-link" onclick="window.location.href = 'http://127.0.0.1:8000/registro';">Sign up</button>
             </div>
         </div>
     </nav>
@@ -30,16 +30,16 @@
             <a class="navbar-brand" href="index.jsp"><img src="images/logo.png" alt="Logo"></a>
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="PerfilServicio.jsp" class="nav-link active-page">Oficio</a>
+                    <a href="http://127.0.0.1:8000/occupationService" class="nav-link active-page">Oficio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="PerfilServicio.jsp" class="nav-link active-page">Talento</a>
+                    <a href="http://127.0.0.1:8000/talentService" class="nav-link active-page">Talento</a>
                 </li>
                 <li class="nav-item">
-                    <a href="servicioRetos.jsp" class="nav-link active-page">Retos</a>
+                    <a href="http://127.0.0.1:8000/retoService" class="nav-link active-page">Retos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="FiltroServicios.jsp" class="nav-link active-page">Categorias</a>
+                    <a href="http://127.0.0.1:8000/categorias" class="nav-link active-page">Categorias</a>
                 </li>
                 <li class="nav-item">
                     <a href="TablonDemandaServicios.jsp" class="nav-link active-page">
